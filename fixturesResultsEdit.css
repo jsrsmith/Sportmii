@@ -1,0 +1,1106 @@
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+   background-color: white;
+/*line-height: 0px;*/
+}
+
+.fixturesResultsEditCentreAllDivs {
+    width: 900px;
+    height: 700px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    /*margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -450px; /*set to a negative number 1/2 of your width*/  
+}
+
+#fixturesResultsEditTitle {
+    width: 900px;
+    height: 50px;
+    position:absolute;
+    top: 0px;
+    left: 50%;
+    /*margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -450px; /*set to a negative number 1/2 of your width*/
+    background-color: #223D8F;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5px;
+    font-size: 25px;
+    
+    /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#fixturesResultsEditKeyBox {
+    width: 150px;
+    height: 160px;
+    position:absolute;
+    top: 100px;
+    left: 10px;
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    line-height: 5px;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+     /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+button#fixturesResultsEditAddResultButton {
+    font-size: 14px;
+    background-color: white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+button#fixturesResultsEditAddResultButton:hover {
+    cursor: pointer;
+}
+
+button#fixturesResultsEditAddFixtureButton {
+    font-size: 14px;
+    background-color: white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+button#fixturesResultsEditAddFixtureButton:hover {
+    cursor: pointer;
+}
+
+button#fixturesResultsEditRemoveFixtureButton {
+    font-size: 14px;
+    background-color: white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+button#fixturesResultsEditRemoveFixtureButton:hover {
+    cursor: pointer;
+}
+
+button#fixturesResultsEditEditFixtureButton {
+    font-size: 14px;
+    background-color: white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+button#fixturesResultsEditEditFixtureButton:hover {
+    cursor: pointer;
+}
+
+#fixturesResultsEditLeagueTitle {
+    position:absolute;
+    top: 78px;
+    left: 200;
+    color: #223D8F;
+    font-size: 20px;
+    width: auto;
+    height:50px;
+}
+
+.gameDateWithData{
+    position: absolute;
+    top: 155px;
+    left: 200px;
+    height: auto;
+    width: 700;
+}
+
+.createGameDateTableTitle{
+    float: left;
+    clear: both;
+    color: #223D8F;
+    font-size: 16px;
+    width: 700px;
+    height: 20px; 
+    text-align: center;
+}
+
+.createGameDateTableDiv {
+    float: left;
+    clear: both;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.createGameDateTable {
+    height: auto;
+    width: 700;
+    border-collapse: collapse;
+    border-top: solid;
+    border-color: #223D8F;
+    border-width: 3px;
+}
+
+.createGameDateTable th:nth-child(1){width:7%;}
+.createGameDateTable th:nth-child(2){width:5%;}
+.createGameDateTable th:nth-child(3){width:29%;}
+.createGameDateTable th:nth-child(4){width:8%;}
+.createGameDateTable th:nth-child(5){width:29%;}
+.createGameDateTable th:nth-child(6){width:22%;}
+
+.createGameDateTable th{
+    text-align: center;
+    font-size: 14px;
+    height: 30px;
+    /*border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;*/
+}
+
+.createGameDateTable td:nth-child(1){width:7%;}
+.createGameDateTable th:nth-child(2){width:5%;}
+.createGameDateTable td:nth-child(3){width:29%;}
+.createGameDateTable td:nth-child(4){width:8%;}
+.createGameDateTable td:nth-child(5){width:29%;}
+.createGameDateTable th:nth-child(6){width:22%;}
+
+
+.createGameDateTable td{
+    text-align: center;
+    font-size: 14px;
+    height: 40px;
+    /*border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;*/
+}
+
+.createGameDateTable tr:nth-child(even){
+    background-color: #D2EBFB;
+}
+
+#fixturesResultsEditFinishedEditingTable {
+    position: absolute;
+    top: 145px;
+    left: 650px;
+}
+
+button#fixturesResultsEditReturnToFixturesButton {
+    font-size: 12px;
+    background-color: #223D8F;
+    color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #223D8F;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+button#fixturesResultsEditReturnToFixturesButton:hover {
+    cursor: pointer;
+}
+
+button#fixturesResultsEditNavigateToLeaguesButton {
+    font-size: 12px;
+    background-color: #223D8F;
+    color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #223D8F;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+button#fixturesResultsEditNavigateToLeaguesButton:hover {
+    cursor: pointer;
+}
+
+input {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    background-color: white;
+}
+
+/*input text box css */
+ input[type="submit"]{
+/* submit button properties */
+background-color: /*#515B68*/white;
+color: #223D8F;
+border-style: solid;
+border-width: 2px;
+border-color: #223D8F;
+font-size: 12px;
+border-radius: 10px;
+    }
+
+    input[type="submit"]:hover{
+cursor: pointer;
+    }
+
+select, option { width: 100px; }
+
+#fixturesResultsEditAddFixturePopup {
+    z-index: 997;
+    width: 700px;
+    height: 500px;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -350px; /*set to a negative number 1/2 of your width*/
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    /*opacity: 0.95;*/
+    visibility: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+    /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+#fixturesResultsEditAddFixtureTitle {
+    position: absolute;
+    top: 70px;
+    left: 208px;
+    color: white;
+    background-color: #223D8F;
+    height: 30px;
+    width: 300px;
+    font-size: 16px;
+    line-height: 0px;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#fixturesResultsEditAddDateTitle {
+    position: absolute;
+    top: 135;
+    left: 334;
+}
+
+#fixturesResultsEditAddTimeTitle {
+    position: absolute;
+    top: 245;
+    left: 97;
+}
+
+#fixturesResultsEditAddHomeTeamTitle {
+    position: absolute;
+    top: 245;
+    left: 203;
+}
+
+#fixturesResultsEditAddAwayTeamTitle {
+    position: absolute;
+    top: 245;
+    left: 328;
+}
+
+#fixturesResultsEditAddDetailsTitle {
+    position: absolute;
+    top: 245;
+    left: 530;
+}
+
+#fixturesResultsEditAddDay {
+    position: absolute;
+    top: 185;
+    left: 225;
+    width: 50px;
+}
+
+#fixturesResultsEditAddMonth {
+    position: absolute;
+    top: 185;
+    left: 285;
+}
+
+#fixturesResultsEditAddYear {
+    position: absolute;
+    top: 185;
+    left: 395;
+}
+
+#fixturesResultsEditGameHour {
+    position: absolute;
+    top: 295;
+    left: 50;
+    width: 50px;
+}
+
+#fixturesResultsEditAddTimeColonTitle {
+    position: absolute;
+    top: 279;
+    left: 106;
+}
+
+#fixturesResultsEditGameMinute {
+    position: absolute;
+    top: 295;
+    left: 120;
+    width: 50px;
+}
+
+#fixturesResultsEditHomeTeamDropdown {
+    position: absolute;
+    top: 295;
+    left: 200;
+}
+
+#fixturesResultsEditAddVTitle {
+    position: absolute;
+    top: 279;
+    left: 308;
+}
+
+#fixturesResultsEditAwayTeamDropdown {
+    position: absolute;
+    top: 295;
+    left: 325;
+}
+
+#fixturesResultsEditDetails {
+    position: absolute;
+    top: 295;
+    left: 450;
+    width: 200px;
+    height: 50px;
+}
+
+
+
+#fixturesResultsEditAddFixturePopupButtons {
+    position: absolute;
+    top: 420px;
+    left: 260px;
+}
+
+button.cancelAddFixture {
+    font-size: 12px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.cancelAddFixture:hover {
+    cursor: pointer;
+}
+
+#submitAddFixture{
+    position: absolute;
+    top: 0px;
+    left: 00px;
+}
+
+#cancelFixturesResultsEditAddFixture{
+    position: absolute;
+    top: 0px;
+    left: 95px;
+}
+
+#fixturesResultsEditRemoveFixturePopup {
+    z-index: 997;
+    width: 700px;
+    height: 500px;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -350px; /*set to a negative number 1/2 of your width*/
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    /*opacity: 0.95;*/
+    visibility: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+    /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+#fixturesResultsEditRemoveFixtureTitle {
+    position: absolute;
+    top: 70px;
+    left: 208px;
+    color: white;
+    background-color: #223D8F;
+    height: 30px;
+    width: 300px;
+    font-size: 16px;
+    line-height: 0px;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#fixturesResultsEditRemoveIDTitle {
+    position: absolute;
+    top: 145;
+    left: 305;
+}
+
+#fixturesResultsEditRemoveFixtureDropdown{
+    position: absolute;
+    top: 200;
+    left: 310;
+}
+
+#fixturesResultsEditRemoveFixturePopupButtons {
+    position: absolute;
+    top: 420px;
+    left: 260px;
+}
+
+button.cancelRemoveFixture {
+    font-size: 12px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.cancelRemoveFixture:hover {
+    cursor: pointer;
+}
+
+#submitRemoveFixture{
+    position: absolute;
+    top: 0px;
+    left: 00px;
+}
+
+#cancelFixturesResultsEditRemoveFixture{
+    position: absolute;
+    top: 0px;
+    left: 115px;
+}
+
+#fixturesResultsEdit#fixturesResultsEditRemoveFixturePopup {
+    z-index: 997;
+    width: 700px;
+    height: 500px;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -350px; /*set to a negative number 1/2 of your width*/
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    /*opacity: 0.95;*/
+    visibility: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+    /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+#fixturesResultsEditRemoveFixtureTitle {
+    position: absolute;
+    top: 70px;
+    left: 208px;
+    color: white;
+    background-color: #223D8F;
+    height: 30px;
+    width: 300px;
+    font-size: 16px;
+    line-height: 0px;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#fixturesResultsEditRemoveIDTitle {
+    position: absolute;
+    top: 145;
+    left: 305;
+}
+
+#fixturesResultsEditRemoveFixtureDropdown{
+    position: absolute;
+    top: 200;
+    left: 310;
+}
+
+#fixturesResultsEditRemoveFixtureExplanation{
+    position: absolute;
+    top: 300;
+    left: 120;
+    font-size: 12px;
+    color: red;
+}
+
+#fixturesResultsEditRemoveFixturePopupButtons {
+    position: absolute;
+    top: 420px;
+    left: 260px;
+}
+
+button.cancelRemoveFixture {
+    font-size: 12px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.cancelRemoveFixture:hover {
+    cursor: pointer;
+}
+
+#submitRemoveFixture{
+    position: absolute;
+    top: 0px;
+    left: 00px;
+}
+
+#fixturesResultsEditEditFixturePopup {
+    z-index: 997;
+    width: 700px;
+    height: 500px;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -350px; /*set to a negative number 1/2 of your width*/
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    /*opacity: 0.95;*/
+    visibility: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+    /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+#fixturesResultsEditEditFixtureTitle {
+    position: absolute;
+    top: 70px;
+    left: 208px;
+    color: white;
+    background-color: #223D8F;
+    height: 30px;
+    width: 300px;
+    font-size: 16px;
+    line-height: 0px;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#fixturesResultsEditEditIDTitle {
+    position: absolute;
+    top: 145;
+    left: 305;
+}
+
+#fixturesResultsEditEditFixtureDropdown{
+    position: absolute;
+    top: 200;
+    left: 310;
+}
+
+#fixturesResultsEditEditFixturePopupButtons {
+    position: absolute;
+    top: 420px;
+    left: 260px;
+}
+
+button.cancelEditFixture {
+    font-size: 12px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.cancelEditFixture:hover {
+    cursor: pointer;
+}
+
+#submitEditFixture{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+#cancelFixturesResultsEditEditFixture{
+    position: absolute;
+    top: 0px;
+    left: 105px;
+}
+
+#fixturesResultsEditFixtureIDAddFixtureTitle {
+    position: absolute;
+    top: 70px;
+    left: 208px;
+    color: white;
+    background-color: #223D8F;
+    height: 30px;
+    width: 300px;
+    font-size: 16px;
+    line-height: 0px;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#fixturesResultsEditFixtureIDHomeTeamName {
+    position: absolute;
+    top: 135;
+    left: 80;
+    height: 100px;
+    width: 250px;
+    text-align: right;
+}
+
+#fixturesResultsEditFixtureIDAddVTitle {
+    position: absolute;
+    top: 135;
+    left: 345;
+}
+
+#fixturesResultsEditFixtureIDAwayTeamName {
+    position: absolute;
+    top: 135;
+    left: 370;
+    height: 100px;
+    width: 250px;
+    text-align: left;
+}
+
+#fixturesResultsEditTeamNameExplanation {
+    position: absolute;
+    top: 380;
+    left: 130;
+    color: red;
+    font-size: 12px;
+}
+
+#fixturesResultsEditFixtureIDAddDateTitle {
+    position: absolute;
+    top: 245;
+    left: 304;
+}
+
+#fixturesResultsEditFixtureIDAddTimeTitle {
+    position: absolute;
+    top: 245;
+    left: 97;
+}
+
+#fixturesResultsEditFixtureIDAddHomeTeamTitle {
+    position: absolute;
+    top: 245;
+    left: 203;
+}
+
+#fixturesResultsEditFixtureIDAddAwayTeamTitle {
+    position: absolute;
+    top: 245;
+    left: 328;
+}
+
+#fixturesResultsEditFixtureIDAddDetailsTitle {
+    position: absolute;
+    top: 245;
+    left: 530;
+}
+
+#fixturesResultsEditFixtureIDAddDay {
+    position: absolute;
+    top: 295;
+    left: 205;
+    width: 50px;
+}
+
+#fixturesResultsEditFixtureIDAddMonth {
+    position: absolute;
+    top: 295;
+    left: 265;
+}
+
+#fixturesResultsEditFixtureIDAddYear {
+    position: absolute;
+    top: 295;
+    left: 375;
+    width: 60px;
+}
+
+#fixturesResultsEditFixtureIDGameHour {
+    position: absolute;
+    top: 295;
+    left: 50;
+    width: 50px;
+}
+
+#fixturesResultsEditFixtureIDAddTimeColonTitle {
+    position: absolute;
+    top: 279;
+    left: 106;
+}
+
+#fixturesResultsEditFixtureIDGameMinute {
+    position: absolute;
+    top: 295;
+    left: 120;
+    width: 50px;
+}
+
+#fixturesResultsEditFixtureIDDetails {
+    position: absolute;
+    top: 295;
+    left: 450;
+    width: 200px;
+    height: 50px;
+}
+
+
+
+#fixturesResultsEditFixtureIDAddFixturePopupButtons {
+    position: absolute;
+    top: 420px;
+    left: 260px;
+}
+
+button.cancelAddFixture {
+    font-size: 12px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.cancelAddFixture:hover {
+    cursor: pointer;
+}
+
+#submitFixtureIDAddFixture{
+    position: absolute;
+    top: 0px;
+    left: 00px;
+}
+
+#cancelFixturesResultsEditFixtureIDAddFixture{
+    position: absolute;
+    top: 0px;
+    left: 95px;
+}
+
+#fixturesResultsEditAddResultPopup {
+    z-index: 997;
+    width: 700px;
+    height: 500px;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -350px; /*set to a negative number 1/2 of your width*/
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    /*opacity: 0.95;*/
+    visibility: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+    /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+#fixturesResultsEditAddResultTitle {
+    position: absolute;
+    top: 70px;
+    left: 208px;
+    color: white;
+    background-color: #223D8F;
+    height: 30px;
+    width: 300px;
+    font-size: 16px;
+    line-height: 0px;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#fixturesResultsEditAddResultSelectFixtureTitle {
+    position: absolute;
+    top: 145;
+    left: 305;
+}
+
+#fixturesResultsEditAddResultDropdown{
+    position: absolute;
+    top: 200;
+    left: 310;
+}
+
+#fixturesResultsEditAddResultPopupButtons {
+    position: absolute;
+    top: 420px;
+    left: 260px;
+}
+
+button.cancelAddResult {
+    font-size: 12px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.cancelAddResult:hover {
+    cursor: pointer;
+}
+
+#submitAddResult{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+#cancelFixturesResultsEditAddResult{
+    position: absolute;
+    top: 0px;
+    left: 105px;
+}
+
+#fixturesResultsEditEnterResultTitle {
+    position: absolute;
+    top: 70px;
+    left: 208px;
+    color: white;
+    background-color: #223D8F;
+    height: 30px;
+    width: 300px;
+    font-size: 16px;
+    line-height: 0px;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#fixturesResultsEditEnterResultHomeTeam {
+    position: absolute;
+    top: 200;
+    left: 50;
+    height: 100px;
+    width: 210px;
+    text-align: right;
+}
+
+#fixturesResultsEditEnterResultHomeTeamScore {
+    position: absolute;
+    top: 210;
+    left: 275;
+    height: 30px;
+    width: 60px;
+}
+
+#fixturesResultsEditEnterResultVSign {
+    position: absolute;
+    top: 200;
+    left: 349;
+}
+
+#fixturesResultsEditEnterResultAwayTeamScore {
+    position: absolute;
+    top: 210;
+    left: 368;
+    height: 30px;
+    width: 60px;
+}
+
+#fixturesResultsEditEnterResultAwayTeam {
+    position: absolute;
+    top: 200;
+    left: 440;
+    height: 100px;
+    width: 210px;
+    text-align: left;
+}
+
+#fixturesResultsNumbersOnlyWarning {
+    position: absolute;
+    top: 370px;
+    left: 260px;
+    font-size: 12px;
+    color: red;
+    visibility: hidden;
+}
+
+#fixturesResultsNumbersEmpty {
+    position: absolute;
+    top: 350px;
+    left: 285px;
+    font-size: 12px;
+    color: red;
+    visibility: hidden;
+}
+
+#fixturesResultsEditEnterResultPopupButtons {
+    position: absolute;
+    top: 420px;
+    left: 260px;
+}
+
+button.cancelEnterResult {
+    font-size: 12px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.cancelEnterResult:hover {
+    cursor: pointer;
+}
+
+#submitEnterResult{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+#cancelFixturesResultsEditEnterResult{
+    position: absolute;
+    top: 0px;
+    left: 105px;
+}

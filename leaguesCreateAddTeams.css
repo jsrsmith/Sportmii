@@ -1,0 +1,574 @@
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+   background-color: white;
+/*line-height: 0px;*/
+}
+
+.CreateAddTeamsCentreAllDivs {
+    width: 900px;
+    height: 700px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    /*margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -450px; /*set to a negative number 1/2 of your width*/  
+}
+
+#createAddTeamsTitle {
+    width: 900px;
+    height: 50px;
+    position:absolute;
+    top: 0px;
+    left: 50%;
+    /*margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -450px; /*set to a negative number 1/2 of your width*/
+    background-color: #223D8F;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5px;
+    font-size: 25px;
+    
+    /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#createAddTeamsKeyBox {
+    width: 150px;
+    height: 140px;
+    position:absolute;
+    top: 100px;
+    left: 10px;
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    line-height: 5px;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+     /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+button#leaguesCreateAddTeamsAddTeamButton {
+    font-size: 14px;
+    background-color: white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+button#leaguesCreateAddTeamsAddTeamButton:hover {
+    cursor: pointer;
+}
+
+button#leaguesCreateAddTeamsRemoveTeamButton {
+    font-size: 14px;
+    background-color: white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+button#leaguesCreateAddTeamsRemoveTeamButton:hover {
+    cursor: pointer;
+}
+
+button#leaguesCreateAddTeamsEditTableButton {
+    font-size: 14px;
+    background-color: white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+button#leaguesCreateAddTeamsEditTableButton:hover {
+    cursor: pointer;
+}
+
+#createAddTeamsLeagueTitle {
+    position:absolute;
+    top: 78px;
+    left: 200;
+    color: #223D8F;
+    font-size: 20px;
+    width: auto;
+    height:50px;
+}
+
+.createLeagueTable {
+    position: absolute;
+    top: 180px;
+    left: 200px;
+    height: auto;
+    width: 700;
+    border-collapse: collapse;
+    border-top: solid;
+    border-color: #223D8F;
+    border-width: 3px;
+}
+
+.createLeagueTable th:nth-child(1){width:8%;}
+.createLeagueTable th:nth-child(2){width:38%;}
+.createLeagueTable th:nth-child(3){width:6%;}
+.createLeagueTable th:nth-child(4){width:6%;}
+.createLeagueTable th:nth-child(5){width:6%;}
+.createLeagueTable th:nth-child(6){width:6%;}
+.createLeagueTable th:nth-child(7){width:6%;}
+.createLeagueTable th:nth-child(8){width:6%;}
+.createLeagueTable th:nth-child(9){width:6%;}
+.createLeagueTable th:nth-child(10){width:12%;}
+
+.createLeagueTable th{
+    text-align: center;
+    font-size: 14px;
+    height: 30px;
+    /*border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;*/
+}
+
+.createLeagueTable td:nth-child(1){width:8%;}
+.createLeagueTable td:nth-child(2){width:38%; text-align: left; padding-left: 5px;}
+.createLeagueTable td:nth-child(3){width:6%;}
+.createLeagueTable td:nth-child(4){width:6%;}
+.createLeagueTable td:nth-child(5){width:6%;}
+.createLeagueTable td:nth-child(6){width:6%;}
+.createLeagueTable td:nth-child(7){width:6%;}
+.createLeagueTable td:nth-child(8){width:6%;}
+.createLeagueTable td:nth-child(9){width:6%;}
+.createLeagueTable td:nth-child(10){width:12%;}
+
+.createLeagueTable td{
+    text-align: center;
+    font-size: 14px;
+    height: 40px;
+    /*border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;*/
+}
+
+.createLeagueTable tr:nth-child(even){
+    background-color: #D2EBFB;
+}
+
+#createFinishedEditingTable {
+    position: absolute;
+    top: 145px;
+    left: 670px;
+}
+
+button#leaguesReturnToLeaguesButton {
+    font-size: 12px;
+    background-color: #223D8F;
+    color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #223D8F;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+button#leaguesReturnToLeaguesButton:hover {
+    cursor: pointer;
+}
+
+button#leaguesNavigateToFixturesButton {
+    font-size: 12px;
+    background-color: #223D8F;
+    color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #223D8F;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+button#leaguesNavigateToFixturesButton:hover {
+    cursor: pointer;
+}
+
+#createAddTeamsNotes {
+    position: absolute;
+    top: 270px;
+    left: 10px;
+    
+    height:200px;
+    width: 150px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+
+#submitLeagueNotes {
+    position: absolute;
+    top: 480;
+    left: 25px;
+    width: 120px;
+    font-size: 12px;
+    background-color: #223D8F;
+    color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #223D8F;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+#createAddTeamPopup {
+    z-index: 997;
+    width: 700px;
+    height: 500px;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -350px; /*set to a negative number 1/2 of your width*/
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    /*opacity: 0.95;*/
+    visibility: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+    /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+#createAddTeamTitle {
+    position: absolute;
+    top: 120px;
+    left: 302px;
+}
+
+#createAddTeamID {
+    position: absolute;
+    top: 165px;
+    left: 280px;
+}
+
+#checkTeamID {
+    z-index: 998;
+    width: 700px;
+    height: 50px;
+    position:absolute;
+    top: 190px;
+    left: 50%;
+    margin-left: -350px; /*set to a negative number 1/2 of your width*/
+}
+
+#createAddTeamPopupButtons {
+    position: absolute;
+    top: 420px;
+    left: 260px;
+}
+
+input {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    background-color: white;
+}
+
+/*input text box css */
+ input[type="submit"]{
+/* submit button properties */
+background-color: /*#515B68*/white;
+color: #223D8F;
+border-style: solid;
+border-width: 2px;
+border-color: #223D8F;
+font-size: 12px;
+border-radius: 10px;
+    }
+
+    input[type="submit"]:hover{
+cursor: pointer;
+    }
+
+button.cancelAddTeam {
+    font-size: 12px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.cancelAddTeam:hover {
+    cursor: pointer;
+}
+
+#submitCreateAddTeam{
+    position: absolute;
+    top: 0px;
+    left: 00px;
+}
+
+#cancelCreateAddTeam{
+    position: absolute;
+    top: 0px;
+    left: 95px;
+}
+
+#createLeagueFoundTeamName {
+    color: limegreen;
+    font-size: 14px;
+}
+
+#createLeagueNotFoundTeamName {
+    color: red;
+    font-size: 14px;
+}
+
+#createRemoveTeamPopup {
+    z-index: 997;
+    width: 700px;
+    height: 500px;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -350px; /*set to a negative number 1/2 of your width*/
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    /*opacity: 0.95;*/
+    visibility: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+    /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+#createRemoveTeamTitle {
+    position: absolute;
+    top: 120px;
+    left: 302px;
+}
+
+#createRemoveTeamID {
+    position: absolute;
+    top: 170px;
+    left: 295px;
+}
+
+#createRemoveTeamExplanation{
+    position: absolute;
+    top: 300;
+    left: 90;
+    font-size: 12px;
+    color: red;
+}
+
+select, option { width: 100px; }
+
+#createRemoveTeamPopupButtons {
+    position: absolute;
+    top: 420px;
+    left: 260px;
+}
+
+button.cancelRemoveTeam {
+    font-size: 12px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.cancelRemoveTeam:hover {
+    cursor: pointer;
+}
+
+#submitCreateRemoveTeam{
+    position: absolute;
+    top: 0px;
+    left: 00px;
+}
+
+#cancelCreateRemoveTeam{
+    position: absolute;
+    top: 0px;
+    left: 95px;
+}
+
+#createEditTablePopup {
+    z-index: 997;
+    width: 700px;
+    height: 500px;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -350px; /*set to a negative number 1/2 of your width*/
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    /*opacity: 0.95;*/
+    visibility: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+    /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+#createEditTableExplanation {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    font-size: 14px;
+}
+
+#createEditTableAddOrMinus {
+    position: absolute;
+    top: 280px;
+    left: 120px;
+}
+
+#createEditTablePointsNumber {
+    position: absolute;
+    top: 280px;
+    left: 230px;
+}
+
+#createEditTeamsMiddleOfSentance {
+    position: absolute;
+    top: 267px;
+    left: 340px;
+    font-size: 14px;
+}
+
+#createEditTeamName {
+    position: absolute;
+    top: 280px;
+    left: 440px;
+}
+
+
+#createEditTablePopupButtons {
+    position: absolute;
+    top: 420px;
+    left: 260px;
+}
+
+button.cancelEditTable {
+    font-size: 12px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.cancelEditTable:hover {
+    cursor: pointer;
+}
+
+#submitCreateEditTable{
+    position: absolute;
+    top: 0px;
+    left: 00px;
+}
+
+#cancelCreateEditTable{
+    position: absolute;
+    top: 0px;
+    left: 95px;
+}
+
+
+
+
+
+
+
+
+

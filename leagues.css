@@ -1,0 +1,412 @@
+/* font of the whole of the body */
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+#leagueSearchOptions {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    height: 110px;
+    width: 100%;
+    
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #223D8F;
+}
+
+.createNewLeague {
+    position: absolute;
+    top: 35px;
+    left: 50px;
+    font-size: 12px;
+    background-color: #223D8F;
+    color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #223D8F;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.createNewLeague:hover {
+    cursor: pointer;
+}
+
+#leaguesDefaultLeagueSubmit {
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    clear: right;
+    width: 120px;
+    font-size: 12px;
+    background-color: #223D8F;
+    color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #223D8F;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+#leaguesDefaultLeagueSubmit:hover {
+    cursor: pointer;
+}
+
+#leagueReturnToDefaultSubmit {
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    clear: right;
+    width: 120px;
+    font-size: 12px;
+    background-color: #223D8F;
+    color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #223D8F;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+#leagueReturnToDefaultSubmit:hover {
+    cursor: pointer;
+}
+
+#leagueSearchButtons {
+    position:absolute;
+    top: 35px;
+    left: 50%;
+    height: auto;
+    width: 260;
+}
+
+
+button.searchAmateurLeagues {
+    position: absolute;
+    top: 0px;
+    left: -150px;
+    font-size: 14px;
+    background-color: #223D8F;
+    color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #223D8F;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.searchAmateurLeagues:hover {
+    cursor: pointer;
+}
+
+button.searchNationalLeague {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    font-size: 14px;
+    background-color: #223D8F;
+    color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #223D8F;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.searchNationalLeague:hover {
+    cursor: pointer;
+}
+
+#leagueAmateurOptions {
+    z-index: 1;
+    position: absolute;
+    top: 149px;
+    left: 0px;
+    
+    height:75px;
+    width: 100%;
+    
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #223D8F;
+    visibility: hidden;
+}
+
+#leagueAmateurOptionsWithin {
+    width: 900px;
+    height: 75px;
+    position:absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -450px; /*set to a negative number 1/2 of your width*/
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#hideAmateurLeagueSearch {
+   position: absolute;
+    top: 30px;
+    left: -20px; 
+}
+
+button.hideAmateurLeagueSearchButton {
+    font-size: 12px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+button.hideAmateurLeagueSearchButton:hover {
+    cursor: pointer;
+}
+
+#leaguesSportDropdown {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    font-size: 14px;
+}
+
+#leaguesYearDropdown {
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    font-size: 14px;
+}
+
+#leaguesDistrictDropdown {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    font-size: 14px;
+    width: 100px;
+}
+
+select, option { width: 100px; }
+
+#leaguesAgeDropdown {
+    position: absolute;
+    top: 0px;
+    left: 550px;
+    font-size: 14px;
+}
+
+#leaguesDivisionDropdown {
+    position: absolute;
+    top: 0px;
+    left: 700px;
+    font-size: 14px;
+}
+
+#leaguesSearchAmateurSubmit {
+    position: absolute;
+    top: 30px;
+    left: 120px;
+    font-size: 12px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#leaguesSearchAmateurSubmit:hover {
+    cursor: pointer;
+}
+
+.leaguesCentreAllDivs {
+    z-index: -1;
+    width: 900px;
+    height: 700px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    /*margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -450px; /*set to a negative number 1/2 of your width*/  
+}
+
+#leagueTitle {
+    position:absolute;
+    top: 78px;
+    left: 200;
+    color: #223D8F;
+    font-size: 20px;
+}
+
+
+.createLeagueTable {
+    width: 700;
+    border-collapse: collapse;
+    border-top: solid;
+    border-color: #223D8F;
+    border-width: 3px;
+    
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+.createLeagueTable th:nth-child(1){width:8%;}
+.createLeagueTable th:nth-child(2){width:38%;}
+.createLeagueTable th:nth-child(3){width:6%;}
+.createLeagueTable th:nth-child(4){width:6%;}
+.createLeagueTable th:nth-child(5){width:6%;}
+.createLeagueTable th:nth-child(6){width:6%;}
+.createLeagueTable th:nth-child(7){width:6%;}
+.createLeagueTable th:nth-child(8){width:6%;}
+.createLeagueTable th:nth-child(9){width:6%;}
+.createLeagueTable th:nth-child(10){width:12%;}
+
+.createLeagueTable th{
+    text-align: center;
+    font-size: 14px;
+    height: 30px;
+    /*border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;*/
+}
+
+.createLeagueTable td:nth-child(1){width:8%;}
+.createLeagueTable td:nth-child(2){width:38%; text-align: left; padding-left: 5px;}
+.createLeagueTable td:nth-child(3){width:6%;}
+.createLeagueTable td:nth-child(4){width:6%;}
+.createLeagueTable td:nth-child(5){width:6%;}
+.createLeagueTable td:nth-child(6){width:6%;}
+.createLeagueTable td:nth-child(7){width:6%;}
+.createLeagueTable td:nth-child(8){width:6%;}
+.createLeagueTable td:nth-child(9){width:6%;}
+.createLeagueTable td:nth-child(10){width:12%;}
+
+.createLeagueTable td{
+    text-align: center;
+    font-size: 14px;
+    height: 40px;
+    /*border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;*/
+}
+
+.createLeagueTable tr:nth-child(even){
+    background-color: #D2EBFB;
+}
+
+#leagueNotesTitle {
+  position: absolute;
+    top: 145px;
+    left: 40px;
+    color: #223D8F;
+    font-size: 16px;
+}
+
+#leagueTeamsNotes {
+    position: absolute;
+    top: 190px;
+    left: 10px;
+    
+    height:200px;
+    width: 150px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+
+#leaguesUserControlButton {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-size: 14px;
+    background-color: white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+#leaguesUserControlButton:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
