@@ -1,0 +1,396 @@
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+   background-color: white;
+/*line-height: 0px;*/
+}
+
+#createClubTitle {
+    width: 900px;
+    height: 50px;
+    position:absolute;
+    top: 100;
+    left: 50%;
+    /*margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -450px; /*set to a negative number 1/2 of your width*/
+    background-color: #223D8F;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5px;
+    font-size: 25px;
+    
+    /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#createClubOutsideBox {
+    width: 900px;
+    height: 600px;
+    position:absolute;
+    top: 230;
+    left: 50%;
+    /*margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -450px; /*set to a negative number 1/2 of your width*/
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+     /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+#createClubExplanation {
+    position: absolute;
+    top: 170;
+    left: 50%;
+     margin-left: -450px; /*set to a negative number 1/2 of your width*/
+    height: 50px;
+    width: 900px;
+    
+    color: #223D8F;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10px;
+}
+
+/* all titles */
+
+#createClubClubNameTitle {
+    position: absolute;
+    top: 20;
+    right: 475;
+    line-height: 0px;
+}
+
+#createClubAddressTitle {
+    position: absolute;
+    top: 65;
+    right: 630;
+    line-height: 15px;
+}
+
+#createClubClubEmailTitle {
+    position: absolute;
+    top: 200;
+    right: 640;
+    line-height: 0px;
+}
+
+#createClubClubWebsiteTitle {
+    position: absolute;
+    top: 255;
+    right: 630;
+    line-height: 0px;
+}
+
+#createClubChairmansFirstnameTitle {
+    position: absolute;
+    top: 310;
+    right: 760px;
+    line-height: 20px;
+}
+
+#createClubChairmansSurnameTitle {
+    position: absolute;
+    top: 360;
+    right: 760px;
+    line-height: 20px;
+}
+
+#createClubChairmansContactNumberTitle {
+    position: absolute;
+    top: 410;
+    right: 760px;
+    line-height: 20px;
+    text-align: right;
+}
+
+#createClubChairmansEmailTitle {
+    position: absolute;
+    top: 467;
+    right: 760px;
+    line-height: 20px;
+}
+
+#createClubSecretaryFirstnameTitle {
+    position: absolute;
+    top: 70;
+    right: 250;
+    line-height: 0px;
+}
+
+#createClubSecretarySurnameTitle {
+    position: absolute;
+    top: 105;
+    right: 250;
+    line-height: 0px;
+}
+
+#createClubSecretaryContactNumberTitle {
+    position: absolute;
+    top: 140;
+    right: 250;
+    line-height: 0px;
+}
+
+#createClubSecretaryEmailTitle {
+    position: absolute;
+    top: 175;
+    right: 250;
+    line-height: 0px;
+}
+
+#createClubTreasurersFirstnameTitle {
+    position: absolute;
+    top: 210;
+    right: 250;
+    line-height: 0px;
+}
+
+#createClubTreasurersSurnameTitle {
+    position: absolute;
+    top: 245;
+    right: 250;
+    line-height: 0px;
+}
+
+#createClubTreasurersContactNumberTitle {
+    position: absolute;
+    top: 280;
+    right: 250;
+    line-height: 0px;
+}
+
+#createClubTreasurersEmailTitle {
+    position: absolute;
+    top: 315;
+    right: 250;
+    line-height: 0px;
+}
+
+#createClubWelfareOfficersFirstnameTitle {
+    position: absolute;
+    top: 350;
+    right: 250;
+    line-height: 0px;
+}
+
+#createClubWelfareOfficersSurnameTitle {
+    position: absolute;
+    top: 385;
+    right: 250;
+    line-height: 0px;
+}
+
+#createClubWelfareOfficersContactNumberTitle {
+    position: absolute;
+    top: 420;
+    right: 250;
+    line-height: 0px;
+}
+
+#createClubWelfareOfficersEmailTitle {
+    position: absolute;
+    top: 455;
+    right: 250;
+    line-height: 0px;
+}
+/*all inputs */
+
+#createClubClubName {
+    position: absolute;
+    top: 28;
+    left: 435;
+}
+
+#createClubAddressLine1 {
+    position: absolute;
+    top: 105;
+    left: 150;
+}
+
+#createClubAddressLine2 {
+    position: absolute;
+    top: 125;
+    left: 150;
+}
+
+#createClubAddressLine3 {
+    position: absolute;
+    top: 145;
+    left: 150;
+}
+
+#createClubPostCode {
+    position: absolute;
+    top: 165;
+    left: 150;
+}
+
+#createClubClubEmail {
+    position: absolute;
+    top: 230;
+    left: 150;
+}
+
+#createClubClubWebsite {
+    position: absolute;
+    top: 285;
+    left: 150;
+}
+
+#createClubChairmansFirstname {
+    position: absolute;
+    top: 333;
+    left: 150;
+}
+
+#createClubChairmansSurname {
+    position: absolute;
+    top: 383;
+    left: 150;
+}
+
+#createClubChairmansContactNumber {
+    position: absolute;
+    top: 433;
+    left: 150;
+}
+
+#createClubChairmansEmail {
+    position: absolute;
+    top: 483;
+    left: 150;
+}
+
+#createClubSecretaryFirstname {
+    position: absolute;
+    top: 78;
+    left: 670;
+}
+
+#createClubSecretarySurname {
+    position: absolute;
+    top: 113;
+    left: 670;
+}
+
+#createClubSecretaryContactNumber {
+    position: absolute;
+    top: 148;
+    left: 670;
+}
+
+#createClubSecretaryEmail {
+    position: absolute;
+    top: 183;
+    left: 670;
+}
+
+#createClubTreasurersFirstname {
+    position: absolute;
+    top: 218;
+    left: 670;
+}
+
+#createClubTreasurersSurname {
+    position: absolute;
+    top: 253;
+    left: 670;
+}
+
+#createClubTreasurersContactNumber {
+    position: absolute;
+    top: 288;
+    left: 670;
+}
+
+#createClubTreasurersEmail {
+    position: absolute;
+    top: 323;
+    left: 670;
+}
+
+#createClubWelfareOfficersFirstname {
+    position: absolute;
+    top: 358;
+    left: 670;
+}
+
+#createClubWelfareOfficersSurname {
+    position: absolute;
+    top: 393;
+    left: 670;
+}
+
+#createClubWelfareOfficersContactNumber {
+    position: absolute;
+    top: 428;
+    left: 670;
+}
+
+#createClubWelfareOfficersEmail {
+    position: absolute;
+    top: 463;
+    left: 670;
+}
+
+input {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+}
+
+ input[type="submit"]{
+background-color: white;
+color: #223D8F;
+border-style: solid;
+border-width: 2px;
+border-color: #223D8F;
+font-size: 12px;
+border-radius: 10px;
+    }
+
+    input[type="submit"]:hover{
+cursor: pointer;
+    }
+
+#createNewClubFootball {
+    position: absolute;
+    top: 540;
+    left: 400;
+}
+
+/*error message properties */
+#createClubNotFilledIn {  
+z-index: 999;
+font-size: 12px;
+position: absolute;
+    top: 490px;
+    left: 335px;
+color: red;
+visibility: hidden;
+}
+
+/*error message properties */
+#createClubContactNumber {  
+z-index: 999;
+font-size: 12px;
+position: absolute;
+    top: 507px;
+    left: 272px;
+color: red;
+visibility: hidden;
+}

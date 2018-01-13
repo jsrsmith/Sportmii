@@ -1,0 +1,102 @@
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+/*error message properties */
+#clubNoevents {
+font-size: 12px;
+position: absolute;
+    top: 5px;
+    left: 5px; 
+}
+
+/*error message properties */
+#clubEventfound {
+font-size: 12px;
+position: absolute;
+    top: 5px;
+    left: 5px; 
+width: 235px;
+height: 400px;
+ /*background-color: ghostwhite;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;*/
+text-align: center;
+vertical-align: top;
+line-height: 1px;
+overflow: hidden;
+ /* rounding the corners*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#clubTitleboth{
+    line-height: 1px;
+}
+
+#clubDestinationboth{
+    line-height: 1px;
+}
+
+#clubEventtimeboth{
+    line-height: 1px;
+}
+
+#clubDestinationpcboth{
+    line-height: 1px;
+}
+
+#clubMeetingpointboth{
+    line-height: 1px;
+}
+
+#clubMeetingtimeboth{
+    line-height: 1px;
+}
+
+#clubMeetingpcboth{
+    line-height: 1px;
+}
+
+#clubTitlevar{
+    color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#clubDestinationvar{
+    color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#clubEventtimevar {
+    color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#clubDestinationpcvar{
+    color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#clubMeetingpointvar{
+    color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#clubMeetingtimevar{
+     color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#clubMeetingpcvar{
+    color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}

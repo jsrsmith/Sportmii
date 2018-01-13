@@ -1,0 +1,132 @@
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+   background-color: white;
+}
+
+#chooseTeamOrClub {
+    visibility: visible;
+}
+
+#createTitle {
+    width: 900px;
+    height: 50px;
+    position:fixed;
+    top: 100;
+    left: 50%;
+    /*margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -450px; /*set to a negative number 1/2 of your width*/
+    background-color: #223D8F;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5px;
+    font-size: 25px;
+    
+    /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#outsideBox {
+    width: 900px;
+    height: 400px;
+    position:fixed;
+    top: 200;
+    left: 50%;
+    /*margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -450px; /*set to a negative number 1/2 of your width*/
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+     /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+#newDropdownText {
+    font-size: 20px;
+}
+
+#chooseCreateTeam{
+    width: 300px;
+    height: 250px;
+    position:absolute;
+    top: 100;
+    left: 75;
+    background-color: white;
+    color: #223D8F;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#chooseCreateTeam:hover {
+    cursor: pointer;
+    background-color: #223D8F;
+    color: white;
+    
+    /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+#chooseCreateClub{
+    width: 300px;
+    height: 250px;
+    position:absolute;
+    top: 100;
+    right: 75;
+    background-color: white;
+    color: #223D8F;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#chooseCreateClub:hover {
+    cursor: pointer;
+    background-color: #223D8F;
+    color: white;
+    
+    /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+#setupCreateTeam {
+    visibility: hidden;
+}
+
+#setupCreateClub {
+    visibility: hidden;
+}

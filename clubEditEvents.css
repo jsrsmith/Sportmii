@@ -1,0 +1,89 @@
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+#clubEditeventbuttons {
+    position: absolute;
+    top: 420px;
+    left: 270px;
+}
+
+#clubEditeventcancelbutton {
+    position: absolute;
+    top: 420px;
+    left: 240px;
+}
+
+button.canceledit {
+    font-size: 12px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.canceledit:hover {
+    cursor: pointer;
+}
+
+#clubSubmiteditevent{
+    position: absolute;
+    top: 0px;
+    left: 15px;
+}
+
+#clubCanceleditevent{
+    position: absolute;
+    top: 0px;
+    left: 70px;
+}
+
+#clubNoeventstoedit{
+    position: absolute;
+    top: 200px;
+    left: 135px;
+}
+
+#clubEventstoedit{
+    position: absolute;
+    top: 130px;
+    left: 230px;
+}
+
+#clubEditeventsdropdown {
+    position: absolute;
+    top: 190px;
+    left: 305px;
+}
+
+#clubEditeventbuttons2 {
+    position: absolute;
+    top: 420px;
+    left: 270px;
+}
+
+#clubSubmiteditevent2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#clubCanceleditevent2{
+    position: absolute;
+    top: 0px;
+    left: 85px;
+}
+
+/*error message properties */
+#clubEditeventnotfilledin {  
+z-index: 999;
+font-size: 12px;
+position: absolute;
+    top: 385px;
+    left: 230px; 
+visibility: hidden;
+}
