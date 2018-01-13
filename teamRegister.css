@@ -1,0 +1,300 @@
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+   background-color: white;
+}
+
+#teamRegisterPlayerButton{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+button.registerPlayer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 14px;
+    background-color: #223D8F;
+    color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #223D8F;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.registerPlayer:hover {
+    cursor: pointer;
+}
+
+#teamRegisteredAlreadyButton{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+button.registeredAlready {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 14px;
+    background-color: #223D8F;
+    color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #223D8F;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*popup div to register player */
+#teamRegisterPopup {
+    z-index: 997;
+    width: 900px;
+    height: 500px;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -450px; /*set to a negative number 1/2 of your width*/
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    /*opacity: 0.95;*/
+    visibility: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+    /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+#teamRegisterTitle {
+    width: 800px;
+    height: 40px;
+    position:fixed;
+    top: 140px;
+    left: 50%;
+    /*margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -400px; /*set to a negative number 1/2 of your width*/
+    background-color:#223D8F;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5px;
+    font-size: 20px;
+    
+    /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#teamRegisterExplanation {
+    position: absolute;
+    top: 70;
+    left: 50%;
+     margin-left: -450px; /*set to a negative number 1/2 of your width*/
+    height: 50px;
+    width: 900px;
+    
+    color: #223D8F;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10px;
+}
+
+#teamRegisterOutsideBox {
+    width: 800px;
+    height: 340px;
+    position:fixed;
+    top: 250;
+    left: 50%;
+    /*margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -400px; /*set to a negative number 1/2 of your width*/
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+     /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+#teamRegisterUsernameExplanation {
+    position: absolute;
+    top: 5;
+    left: 50%;
+     margin-left: -450px; /*set to a negative number 1/2 of your width*/
+    height: 50px;
+    width: 900px;
+    
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+#teamRegisterFirstnameTitle {
+    position: absolute;
+    top: 55;
+    left: 172;
+    line-height: 15px;
+}
+
+#teamRegisterSurnameTitle {
+    position: absolute;
+    top: 100;
+    left: 172;
+    line-height: 15px;
+}
+
+#teamRegisterDob{
+    position: absolute;
+    top: 190;
+    left: 100;
+}
+
+#teamRegisterUsernameTitle {
+    position: absolute;
+    top: 220;
+    left: 172;
+    line-height: 15px;
+}
+
+#teamRegisterAddressTitle {
+    position: absolute;
+    top: 55;
+    left: 560;
+    line-height: 15px;
+}
+
+#teamRegisterFirstname {
+    position: absolute;
+    top: 85;
+    left: 136;
+}
+
+#teamRegisterSurname {
+    position: absolute;
+    top: 130;
+    left: 136;
+}
+
+#teamRegisterAddressLine1 {
+    position: absolute;
+    top: 85;
+    left: 518;
+}
+
+#teamRegisterAddressLine2 {
+    position: absolute;
+    top: 105;
+    left: 518;
+}
+
+#teamRegisterAddressLine3 {
+    position: absolute;
+    top: 125;
+    left: 518;;
+}
+
+#teamRegisterPostCode {
+    position: absolute;
+    top: 145;
+    left: 518;
+}
+
+#teamRegisterEthnicity{
+    position: absolute;
+    top: 190;
+    left: 530;
+}
+
+#teamRegisterPlayerSubmitButtons {
+    position:absolute;
+    top: 300;
+    left: 330;
+}
+
+input {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    background-color: white;
+}
+
+
+input#teamSubmitRegister#teamSubmitRegister{
+background-color: white;
+color: #223D8F;
+border-style: solid;
+border-width: 2px;
+border-color: #223D8F;
+font-size: 14px;
+border-radius: 10px;
+    }
+
+input#teamSubmitRegister#teamSubmitRegister:hover{
+cursor: pointer;
+    }
+
+button.cancelRegister {
+    font-size: 14px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.cancelRegister:hover {
+    cursor: pointer;
+}
+
+#teamSubmitRegister{
+    position: absolute;
+    top: 0px;
+    left: 00px;
+}
+
+#teamCancelRegister{
+    position: absolute;
+    top: 0px;
+    left: 95px;
+}
+
+/*error message properties */
+#teamRegisterPlayerNotFilledIn {  
+z-index: 999;
+font-size: 12px;
+position: absolute;
+    top: 265px;
+    left: 285px;
+color: red;
+visibility: hidden;
+}
