@@ -1,0 +1,208 @@
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+   background-color: white;
+}
+
+#teamTopScorersTitle {
+    z-index: 1;
+    height: 30px;
+    width: 300px;
+    
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #223D8F;
+    color: white;
+    
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5px;
+    overflow: hidden;
+    
+         /* box shadowing 
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;*/
+    
+    /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.allTeamTopScorers {
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    overflow: scroll;
+}
+
+.allTeamTopScorers:hover {
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+    /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.topScorersTable {
+    width: 300;
+    border-collapse: collapse;
+    
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+
+.topScorersTable th:nth-child(1){width:80%; text-align: left}
+.topScorersTable th:nth-child(2){width:20%;}
+
+
+.topScorersTable th{
+    text-align: center;
+    font-size: 14px;
+    height: 30px;
+}
+
+.topScorersTable td:nth-child(1){width:80%; text-align: left;}
+.topScorersTable td:nth-child(2){width:20%;}
+
+
+.topScorersTable td{
+    text-align: center;
+    font-size: 14px;
+    height: 30px;
+    color: #223D8F;
+}
+
+
+
+#teamTopScorersPopup {
+    z-index: 999;
+    width: 700px;
+    height: 500px;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -350px; /*set to a negative number 1/2 of your width*/
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    visibility: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+     /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+#teamTopScorersPopupTitle {
+    z-index: 1;
+    height: 30px;
+    width: 300px;
+    
+    position:absolute;
+    top: 70px;
+    left: 200px;
+    
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #223D8F;
+    color: white;
+    
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5px;
+    overflow: hidden;
+    
+    /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+select, option { width: 100px; }
+
+#teamTopScorersAddOrMinus {
+    position: absolute;
+    top:200px;
+    left: 120px;
+}
+
+#teamTopScorersGoalsNumber {
+    position: absolute;
+    top:200px;
+    left: 240px;
+}
+
+#teamTopScorersTO {
+    position: absolute;
+    top:183px;
+    left: 353px;
+}
+
+#teamTopScorersName {
+    position: absolute;
+    top:200px;
+    left: 425px;
+}
+
+#editTeamTopScorersButtons {
+    position: absolute;
+    top: 400px;
+    left: 300px;
+}
+
+/*input text box css */
+ input[type="submit"]{
+/* submit button properties */
+background-color: /*#515B68*/white;
+color: #223D8F;
+border-style: solid;
+border-width: 2px;
+border-color: #223D8F;
+font-size: 12px;
+border-radius: 10px;
+    }
+
+    input[type="submit"]:hover{
+cursor: pointer;
+    }
+
+button.cancelTeamTopScorersButton {
+    font-size: 12px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.cancelTeamTopScorersButton:hover {
+    cursor: pointer;
+}
+
+
+#cancelTeamTopScorers{
+    position: absolute;
+    top: 0px;
+    left: 55px;
+}

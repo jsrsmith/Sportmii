@@ -1,0 +1,249 @@
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+/* possitioning of the events shown div and the calendar together*/
+#viewTeamCentereverything {
+    /*all this centres both events and calendar */
+    z-index: -1;
+    height: 650px;
+    width: 910px;
+    position:absolute;
+    top: 80px;
+    left: 50%;
+    /*margin-top: -250px;*/ /*set to a negative number 1/2 of your height*/
+    margin-left: -450px;*/ /*set to a negative number 1/2 of your width
+    /*z-index: -1;
+    height: 650px;
+    width: 910px;
+    position:absolute;
+    top: 70px;
+    left: 50px;*/
+}
+
+
+/*highlight a date text box */
+#viewTeamHighlightadate{
+    width: 250px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 10px; 
+    background-color: white;
+    color: #223D8F;
+    font-size: 14px;
+}
+
+/*upcoming events box */
+#viewTeamEvents{
+    width: 250px;
+    height: 428px;
+    position: absolute;
+    top: 78px;
+    left: 0px; 
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    /* rounding the corners*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    /* box shadowing */
+/*-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;*/
+}
+
+/*upcoming events heading div */
+#viewTeamEventsheading {
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    top: 33px;
+    left: 0px; 
+    background-color: #223D8F;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+       /* rounding the corners*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#viewTeamHeadingcontent{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+/*all below is for the datepicker */
+/* whole box */
+.ui-datepicker {
+  width: 605px;
+  height: auto;
+  /*margin: 50px auto 0;*/
+  position: absolute;
+    top: 33px;
+    left: 270px; 
+  font: 12px;
+    /*border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;*/
+ /* box shadowing */
+/*-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;*/
+  /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+/*taking underline away from dates */
+.ui-datepicker a {
+  text-decoration: none;
+}
+
+/*making it stretch accross the whole of the width at the top */
+.ui-datepicker table {
+  width: 100%;
+}
+
+/*header */
+.ui-datepicker-header {
+  height: 40px;
+  background-color:   #223D8F;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+      /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+/* centering the month title */
+.ui-datepicker-title {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+/*replcing previous and next with images */
+.ui-datepicker-prev, .ui-datepicker-next {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* possitioning of previous and next arrows */
+.ui-datepicker-prev {
+  float: left;
+  margin-left: 10px;
+  background-position: center -30px;
+}
+.ui-datepicker-next {
+  float: right;
+    margin-right: 40px;
+  background-position: center 0px;
+}
+
+/* days of the week */
+.ui-datepicker thead {
+  background-color: white;
+    height: 40px;
+}
+
+/* days of the week text */
+.ui-datepicker th {
+  text-transform: uppercase;
+  font-size: 10pt;
+  color: black;
+}
+
+/* all dates spacing and border */
+.ui-datepicker tbody td {
+  padding: 0;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 75px;
+  background-color: white;
+  border-right: 1px solid white;
+  height: 75px;
+  width: 83px;
+  border-bottom: 1px solid white; 
+  font-size: 16px;
+}
+
+/*except for last td, remove border */
+.ui-datepicker tbody td:last-child {
+  border-right: 0px;
+}
+
+/*same for rows spacing*/
+.ui-datepicker tbody tr {
+  border-bottom: 1px solid white;
+}
+.ui-datepicker tbody tr:last-child {
+  border-bottom: 0px;
+}
+
+/*dates colour */
+.ui-datepicker td span, .ui-datepicker td a {
+  display: inline-block;
+  font-weight: bold;
+  color: #223D8F;
+  width: 83px;/*change these with box hight and width */
+  height: 75px;/*change these with box hight and width */
+}
+
+/* unselectable dates from previous or next month*/
+.ui-datepicker-unselectable .ui-state-default {
+  color: #b4b3b3;
+  background-color: white;
+}
+
+/*when you hover over date */
+.ui-datepicker-calendar .ui-state-hover {
+  background: #223D8F;
+  color: white;
+    
+    /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+/*if theres an event on the date */
+.ui-state-event .ui-state-default {
+    background-color: /*#B5E1FC*/ #D2EBFB;
+    background-image :none !important;
+    color: white!important;
+    
+       /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+/*todays date */
+.ui-datepicker-calendar .ui-state-active {
+    background: #223D8F;
+    color: white;
+    
+       /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+/*removes random bar from datepicker*/
+#ui-datepicker-div { display: none; }

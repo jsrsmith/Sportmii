@@ -1,0 +1,449 @@
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+   background-color: white;
+}
+
+#viewTeamDatepicker {
+    width: 330px;
+    height: 230px;
+    margin-top: 30px;
+    margin-right: 5px;
+    float: right;
+    clear: right;
+    background-color: white;
+}
+
+#viewTeamSmallerEvent {
+    width: 300px;
+    height: 30px;
+    margin-top: 00px;
+    margin-right: 35px;
+    float: right;
+    clear: right;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+    /* rounding the corners */
+  
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#viewTeamFullCalendarButton {
+    margin-top: 20px;
+    margin-right: 50px;
+    float: right;
+    clear: right;
+    height: 30px;
+    width: 280px;
+}
+
+a.viewTeamCalendar {
+    font-size: 14px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a.viewTeamCalendar:hover {
+    cursor: pointer;
+}
+
+#viewTeamLeague {
+    width: 350px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    clear: right;
+}
+
+#viewTeamScoutingSetup {
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 355px;
+    left: 635px;
+    font-size: 14px;
+}
+
+#viewTeamRegister{
+    width: 50px;
+    height: 15px;
+    position: absolute;
+    top: 300px;
+    left: 740px;
+    font-size: 14px;
+}
+
+#viewTeamProfilepicback {
+    z-index: -1;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 260px;
+    left: 50px;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+     overflow: hidden;
+    
+       /* box shadowing 
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;*/
+    
+     /* rounding the corners */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#viewTeamProfilepic {
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 260px;
+    left: 50px;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    overflow: hidden;
+    
+      /* box shadowing 
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;*/
+    
+    /* rounding the corners */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#viewTeamSportmiiimagewithin {
+    position: absolute;
+    left: 15px;
+}
+
+#viewTeamCoverPhotoBack {
+    z-index: -4;
+    width: 850px;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    left: -3px;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+     overflow: hidden;
+    
+       /* box shadowing 
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;*/
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#viewTeamCoverPhoto {
+    z-index: -3;
+    width: 850px;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    left: -3px;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    overflow: hidden;
+    
+      /* box shadowing 
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;*/
+    
+    /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#viewTeamContactDetails {
+    width: 150px;
+    height: 20px;
+    position: absolute;
+    top: 410px;
+    left: 55px;
+}
+
+#viewTeamName {
+    width: 500px;
+    height: 30px;
+    position: absolute;
+    top: 280px;
+    left: 220px;
+    font-size: 20px;
+}
+
+#viewTeamSport {
+    width: 500px;
+    height: 20px;
+    position: absolute;
+    top: 330px;
+    left: 220px;
+    font-size: 14px;
+}
+
+#viewTeamClub {
+    width: 500px;
+    height: 20px;
+    position: absolute;
+    top: 355px;
+    left: 220px;
+    font-size: 14px;
+}
+
+#viewTeamID {
+    width: 500px;
+    height: 20px;
+    position: absolute;
+    top: 380px;
+    left: 220px;
+    font-size: 14px;
+    color: #AFAEAE;
+}
+
+
+#viewTeamDetails {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 500px;
+    left: 80px;
+    background-color: white;
+    
+   /*border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;*/
+    
+    /* rounding the corners*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+}
+
+#viewTeamTopScorers {
+    position: absolute;
+    top: 500px;
+    left: 480px;
+    width: 300px;
+    height: 150px;
+    
+    /*border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;*/
+}
+
+#viewTeamRegisteredPlayers {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 730px;
+    left: 80px;
+    background-color: white;
+    
+    /* rounding the corners*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;  
+}
+
+#viewTeamDiscipline {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 730px;
+    left: 480px;
+    background-color: white;
+    
+    /* rounding the corners*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;    
+}
+
+#viewTeamFeed {
+    width: 750px;
+    height: auto;
+    position: absolute;
+    top: 960px;
+    left: 50px;
+}
+
+
+/*all below is for the datepicker */
+/* whole box */
+.ui-datepicker {
+  width: 300px;
+  height: auto;
+  /*margin: 50px auto 0;*/
+}
+
+/*taking underline away from dates */
+.ui-datepicker a {
+  text-decoration: none;
+}
+
+/*making it stretch accross the whole of the width at the top */
+.ui-datepicker table {
+  width: 100%;
+}
+
+/*header */
+.ui-datepicker-header {
+  height: 30px;
+  background-color:   white;
+  color: #223D8F;
+  font-weight: bold;
+  font-size: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+      /* rounding the corners */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/* centering the month title */
+.ui-datepicker-title {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 35px;
+}
+
+/*replcing previous and next with images */
+.ui-datepicker-prev, .ui-datepicker-next {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 35px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+/* possitioning of previous and next arrows */
+.ui-datepicker-prev {
+  float: left;
+  margin-left: 10px;
+  background-position: center -30px;
+}
+.ui-datepicker-next {
+  float: right;
+    margin-right: 40px;
+  background-position: center 0px;
+}
+
+/* days of the week */
+.ui-datepicker thead {
+  background-color: white;
+    height: 25px;
+}
+
+/* days of the week text */
+.ui-datepicker th {
+  text-transform: uppercase;
+  font-size: 10pt;
+  color: black;
+}
+
+/* all dates spacing and border */
+.ui-datepicker tbody td {
+  padding: 0;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 25px;
+  background-color: white;
+  border-right: 1px solid white;
+  height: 25px;
+  width: 27px;
+  border-bottom: 1px solid white; 
+}
+
+/*except for last td, remove border */
+.ui-datepicker tbody td:last-child {
+  border-right: 0px;
+}
+
+/*same for rows spacing*/
+.ui-datepicker tbody tr {
+  border-bottom: 1px solid white;
+}
+.ui-datepicker tbody tr:last-child {
+  border-bottom: 0px;
+}
+
+/*dates colour */
+.ui-datepicker td span, .ui-datepicker td a {
+  display: inline-block;
+  font-weight: bold;
+  color: #223D8F;
+  width: 27px;/*change these with box hight and width */
+  height: 25px;/*change these with box hight and width */
+}
+
+/* unselectable dates from previous or next month*/
+.ui-datepicker-unselectable .ui-state-default {
+  color: #b4b3b3;
+  background-color: white;
+}
+
+/*when you hover over date */
+.ui-datepicker-calendar .ui-state-hover {
+  background: #223D8F;
+  color: white;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+
+/*if theres an event on the date */
+.ui-state-event .ui-state-default {
+    background-color: /*#B5E1FC*/ #D2EBFB;
+    background-image :none !important;
+    color: white!important;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+
+/*todays date */
+.ui-datepicker-calendar .ui-state-active {
+    background: #223D8F;
+    color: white;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+/*removes random bar from datepicker*/
+#ui-datepicker-div { display: none; }

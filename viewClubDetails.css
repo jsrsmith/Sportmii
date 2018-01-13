@@ -1,0 +1,105 @@
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+   background-color: white;
+}
+
+#ViewClubDetailsTitle {
+    z-index: 1;
+    height: 30px;
+    width: 300px;
+    
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #223D8F;
+    color: white;
+    
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5px;
+    overflow: hidden;
+    
+         /* box shadowing 
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;*/
+    
+    /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#ViewClubAllClubDetails {
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+
+#ViewClubDetailsClubNameTitle {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#ViewClubDetailsStadiumTitle {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#ViewClubDetailsSponsorTitle {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#ViewClubDetailsFoundedTitle {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#ViewClubDetailsClubName {
+    position: absolute;
+    top: 0px;
+    left: 90;
+    font-size: 14px;
+    color: #223D8F;
+}
+
+#ViewClubDetailsStadium {
+    position: absolute;
+    top: 30px;
+    left: 90;
+    font-size: 14px;
+    color: #223D8F;
+}
+
+#ViewClubDetailsSponsor {
+    position: absolute;
+    top: 60px;
+    left: 90;
+    font-size: 14px;
+    color: #223D8F;
+}
+
+#ViewClubDetailsFounded {
+    position: absolute;
+    top: 90px;
+    left: 90;
+    font-size: 14px;
+    color: #223D8F;
+}

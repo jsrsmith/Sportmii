@@ -1,0 +1,102 @@
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+/*error message properties */
+#viewClubNoevents {
+font-size: 12px;
+position: absolute;
+    top: 5px;
+    left: 5px; 
+}
+
+/*error message properties */
+#viewClubEventfound {
+font-size: 12px;
+position: absolute;
+    top: 5px;
+    left: 5px; 
+width: 235px;
+height: 400px;
+ /*background-color: ghostwhite;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;*/
+text-align: center;
+vertical-align: top;
+line-height: 1px;
+overflow: hidden;
+ /* rounding the corners*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#viewClubTitleboth{
+    line-height: 1px;
+}
+
+#viewClubDestinationboth{
+    line-height: 1px;
+}
+
+#viewClubEventtimeboth{
+    line-height: 1px;
+}
+
+#viewClubDestinationpcboth{
+    line-height: 1px;
+}
+
+#viewClubMeetingpointboth{
+    line-height: 1px;
+}
+
+#viewClubMeetingtimeboth{
+    line-height: 1px;
+}
+
+#viewClubMeetingpcboth{
+    line-height: 1px;
+}
+
+#viewClubTitlevar{
+    color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#viewClubDestinationvar{
+    color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#viewClubEventtimevar {
+    color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#viewClubDestinationpcvar{
+    color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#viewClubMeetingpointvar{
+    color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#viewClubMeetingtimevar{
+     color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#viewClubMeetingpcvar{
+    color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}

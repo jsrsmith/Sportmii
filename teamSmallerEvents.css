@@ -1,0 +1,23 @@
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+/*error message properties */
+#teamNoSmallEvents {
+font-size: 12px;
+text-align: center;
+vertical-align: middle;
+line-height: 10px;
+color: #223D8F;
+}
+
+/*error message properties */
+#teamSmallEventFound {
+font-size: 12px;
+text-align: center;
+vertical-align: middle;
+line-height: 10px;
+font-weight: bold;
+overflow: hidden;
+color: #223D8F;
+}

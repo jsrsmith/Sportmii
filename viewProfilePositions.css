@@ -1,0 +1,518 @@
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+   background-color: white;
+}
+
+#viewProfilePositionsText {
+     z-index: 1;
+    height: 30px;
+    width: 300px;
+    
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #223D8F;
+    color: white;
+    
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5px;
+    overflow: hidden;
+    
+         /* box shadowing 
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;*/
+    
+    /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+
+#viewProfileFootballGK {
+    position: absolute;
+    top:81px;
+    left:15px;
+    
+    z-index: 2;
+    height: 15px;
+    width: 15px;
+    background-color: lime;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#viewProfileFootballLCB {
+    position: absolute;
+    top:62px;
+    left:60px;
+    
+    z-index: 2;
+    height: 15px;
+    width: 15px;
+    background-color: lime;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#viewProfileFootballRCB {
+    position: absolute;
+    top:104px;
+    left:60px;
+    
+    z-index: 2;
+    height: 15px;
+    width: 15px;
+    background-color: lime;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#viewProfileFootballRB {
+    position: absolute;
+    top:147px;
+    left:60px;
+    
+    z-index: 2;
+    height: 15px;
+    width: 15px;
+    background-color: lime;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#viewProfileFootballRWB {
+    position: absolute;
+    top:147px;
+    left:102px;
+    
+    z-index: 2;
+    height: 15px;
+    width: 15px;
+    background-color: lime;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#viewProfileFootballLB {
+    position: absolute;
+    top:20px;
+    left:60px;
+    
+    z-index: 2;
+    height: 15px;
+    width: 15px;
+    background-color: lime;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#viewProfileFootballLWB {
+    position: absolute;
+    top:20px;
+    left:102px;
+    
+    z-index: 2;
+    height: 15px;
+    width: 15px;
+    background-color: lime;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#viewProfileFootballLDM {
+    position: absolute;
+    top:62px;
+    left:102px;
+    
+    z-index: 2;
+    height: 15px;
+    width: 15px;
+    background-color: lime;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#viewProfileFootballRDM {
+    position: absolute;
+    top:104px;
+    left:102px;
+    
+    z-index: 2;
+    height: 15px;
+    width: 15px;
+    background-color: lime;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#viewProfileFootballLCM {
+    position: absolute;
+    top:62px;
+    left:143px;
+    
+    z-index: 2;
+    height: 15px;
+    width: 15px;
+    background-color: lime;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#viewProfileFootballRCM {
+    position: absolute;
+    top:104px;
+    left:143px;
+    
+    z-index: 2;
+    height: 15px;
+    width: 15px;
+    background-color: lime;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#viewProfileFootballRM {
+    position: absolute;
+    top:147px;
+    left:143px;
+    
+    z-index: 2;
+    height: 15px;
+    width: 15px;
+    background-color: lime;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#viewProfileFootballLM {
+    position: absolute;
+    top:20px;
+    left:143px;
+    
+    z-index: 2;
+    height: 15px;
+    width: 15px;
+    background-color: lime;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#viewProfileFootballAM {
+    position: absolute;
+    top:81px;
+    left:186px;
+    
+    z-index: 2;
+    height: 15px;
+    width: 15px;
+    background-color: lime;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#viewProfileFootballRW {
+    position: absolute;
+    top:147px;
+    left:186px;
+    
+    z-index: 2;
+    height: 15px;
+    width: 15px;
+    background-color: lime;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#viewProfileFootballLW {
+    position: absolute;
+    top:20px;
+    left:186px;
+    
+    z-index: 2;
+    height: 15px;
+    width: 15px;
+    background-color: lime;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#viewProfileFootballCF {
+    position: absolute;
+    top:81px;
+    left:226px;
+    
+    z-index: 2;
+    height: 15px;
+    width: 15px;
+    background-color: lime;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#viewProfileFootballRF {
+    position: absolute;
+    top:110px;
+    left:226px;
+    
+    z-index: 2;
+    height: 15px;
+    width: 15px;
+    background-color: lime;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#viewProfileFootballLF {
+    position: absolute;
+    top:52px;
+    left:226px;
+    
+    z-index: 2;
+    height: 15px;
+    width: 15px;
+    background-color: lime;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+
+
+/*pitch*/
+
+#viewProfileWholething {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    /*height: 3000px;*/
+    width: 300px;
+    
+        /* rounding the corners*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+     /* box shadowing */
+-moz-box-shadow: 5px 5px 5px 5px #CFCDCD;
+-webkit-box-shadow: 5px 5px 5px 5px #CFCDCD;
+box-shadow: 5px 5px 5px 5px #CFCDCD;
+    
+}
+
+/* whole pitch including outside the lines */
+.wholePitch {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: 0;
+  margin: 0px auto;
+  padding: 0 0 60% 0;
+  background: #00b300;
+    
+     /* rounding the corners*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+/* pitch properties */
+.penaltyBox, .halfWayLine,
+.semi1, .semi2,
+.corner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 94%;
+  height: 90%;
+  margin: auto;
+  border: 2px solid #eee;
+}
+/* half Way Line */
+.halfWayLine:after, .halfWayLine:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  display: block;
+  width: 0;
+  height: 100%;
+  margin-left: .5px;
+  border: 1px solid #eee;  
+}
+/* centre circle */
+.halfWayLine:before {
+  top: 50%;
+  width: 16%;
+  height: 0;
+  margin: -8% 0 0 -8%;
+  margin-top: calc(-8% - 4px);
+  margin-left: calc(-8% - .5px);
+  padding-bottom: 16%;
+  border-radius: 50%;
+  border: 2px solid #eee;
+}
+/* 6 yard box */ 
+.wholePitch:before, .wholePitch:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  margin: -8% 0 0 -2px;
+  display: block;
+  width: 6%;
+  height: 24%;
+  border: 2px solid #eee;
+  z-index: 2;
+}
+/* right hand side */
+.wholePitch:after {
+  left: auto;
+  right: 3%;
+  margin-right: -2px;
+}
+/* 18 yard box */
+.penaltyBox:before, .penaltyBox:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin: -16% 0 0 -2px;
+  display: block;
+  width: 16%;
+  height: 50%;
+  background: #00b300;
+  border: 2px solid #eee;
+}
+/* 18 yard box right hand side*/
+.penaltyBox:after {
+  left: auto;
+  right: 0;
+  margin: -16% -2px 0 0;
+}
+/* penalty spot */ 
+.semi1:before, .semi2:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  display: block;
+  width: 1%;
+  height: 1.5%;
+  margin: -.75% 0 0 0;
+  background: #eee;
+  border-radius: 50%;
+  z-index: 2;
+}
+.semi2:before {
+  left: auto;
+  right: 12%;
+}
+/* semi circlr properties */
+.semi1:after, .semi2:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  width: 16%;
+  height: 0;
+  margin: -8% 0 0 0;
+  padding-bottom: 16%;
+  border: 2px solid #eee;
+  border-radius: 50%;
+}
+.semi2:after {
+  left: auto;
+  right: 5%;
+}
+.corner {
+  overflow: hidden;
+}
+.corner1:before, .corner2:before,
+.corner1:after, .corner2:after {
+ content: "";
+  position: absolute;
+  top: -6%;
+  left: -4%;
+  width: 6%;
+  height: 0;
+  margin: 0 0 0 0;
+  padding-bottom: 6%;
+  border: 2px solid #eee;
+  border-radius: 50%;
+}
+.corner1:after {
+  left: auto;
+  right: -4%;
+}
+.corner2:before {
+  top: auto;
+  bottom: -6%;
+}
+.corner2:after {
+  top: auto;
+  bottom: -6%;
+  left: auto;
+  right: -4%;
+}
+
+
