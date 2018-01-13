@@ -1,0 +1,268 @@
+/* font of the whole of the body */
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.seasonStatsTitle {
+    z-index: 1;
+    height: 30px;
+    width: 100%;
+    
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #223D8F;
+    color: white;
+    
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5px;
+    overflow: hidden;
+    
+         /* box shadowing 
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;*/
+    
+    /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.seasonStatsTable {
+    width: 100%;
+    border-collapse: collapse;
+    border-top: solid;
+    border-color: #223D8F;
+    border-width: 3px;
+    cursor: pointer;
+    
+    position: absolute;
+    top:40px;
+    left: 0px;
+}
+
+.seasonStatsTable th{
+    text-align: center;
+    font-size: 12px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+}
+
+.seasonStatsTable td{
+    text-align: center;
+    color: #223D8F;
+    font-size: 30px;
+    
+    padding-top: 5px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+}
+
+#profileSeasonStatsPopup {
+    z-index: 999;
+    width: 700px;
+    height: 500px;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -350px; /*set to a negative number 1/2 of your width*/
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    visibility: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+     /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+#profileSeasonStatsTitle {
+    z-index: 1;
+    height: 30px;
+    width: 300px;
+    
+    position:absolute;
+    top: 70px;
+    left: 200px;
+    
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #223D8F;
+    color: white;
+    
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5px;
+    overflow: hidden;
+    
+    /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.seasonStatsPopupTable {
+    width: 95%;
+    border-collapse: collapse;
+    border-top: solid;
+    border-color: #223D8F;
+    border-width: 3px;
+    
+    position: absolute;
+    top:200px;
+    left: 15px;
+}
+
+.seasonStatsPopupTable th{
+    text-align: center;
+    font-size: 12px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+}
+
+.seasonStatsPopupTable td{
+    text-align: center;
+    color: #223D8F;
+    font-size: 30px;
+    
+    padding-top: 5px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+}
+
+.apps{
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    resize: none;
+    line-height: 30px;
+}
+
+.wins{
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    resize: none;
+    line-height: 30px;
+}
+
+.draws{
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    resize: none;
+    line-height: 30px;
+}
+
+.losses{
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    resize: none;
+    line-height: 30px;
+}
+
+.goals{
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    resize: none;
+    line-height: 30px;
+}
+
+.cleanSheets{
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    resize: none;
+    line-height: 30px;
+}
+
+.MOM{
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    resize: none;
+    line-height: 30px;
+}
+
+.yellowCards{
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    resize: none;
+    line-height: 30px;
+}
+
+.redCards{
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    resize: none;
+    line-height: 30px;
+}
+
+#profileSeasonStatsButtons {
+    position: absolute;
+    top: 400px;
+    left: 300px;
+}

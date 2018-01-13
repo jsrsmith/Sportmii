@@ -1,0 +1,102 @@
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+/*error message properties */
+#teamNoevents {
+font-size: 12px;
+position: absolute;
+    top: 5px;
+    left: 5px; 
+}
+
+/*error message properties */
+#teamEventfound {
+font-size: 12px;
+position: absolute;
+    top: 5px;
+    left: 5px; 
+width: 235px;
+height: 400px;
+ /*background-color: ghostwhite;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;*/
+text-align: center;
+vertical-align: top;
+line-height: 1px;
+overflow: hidden;
+ /* rounding the corners*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#teamTitleboth{
+    line-height: 1px;
+}
+
+#teamDestinationboth{
+    line-height: 1px;
+}
+
+#teamEventtimeboth{
+    line-height: 1px;
+}
+
+#teamDestinationpcboth{
+    line-height: 1px;
+}
+
+#teamMeetingpointboth{
+    line-height: 1px;
+}
+
+#teamMeetingtimeboth{
+    line-height: 1px;
+}
+
+#teamMeetingpcboth{
+    line-height: 1px;
+}
+
+#teamTitlevar{
+    color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#teamDestinationvar{
+    color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#teamEventtimevar {
+    color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#teamDestinationpcvar{
+    color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#teamMeetingpointvar{
+    color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#teamMeetingtimevar{
+     color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#teamMeetingpcvar{
+    color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
