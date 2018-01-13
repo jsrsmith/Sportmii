@@ -1,0 +1,61 @@
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+#clubDeleteEventButtons {
+    position: absolute;
+    top: 420px;
+    left: 266px;
+}
+
+#clubDeleteEventCancelButton {
+    position: absolute;
+    top: 420px;
+    left: 240px;
+}
+
+button.cancelDelete {
+    font-size: 12px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.cancelDelete:hover {
+    cursor: pointer;
+}
+
+#clubSubmitDeleteEvent{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#clubCancelDeleteEvent{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+
+#clubNoEventsToDelete{
+    position: absolute;
+    top: 200px;
+    left: 135px;
+}
+
+#clubEventsToDelete{
+    position: absolute;
+    top: 130px;
+    left: 230px;
+}
+
+#clubDeleteEventsDropdown {
+    position: absolute;
+    top: 190px;
+    left: 305px;
+}

@@ -1,0 +1,568 @@
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+/* possitioning of the events shown div and the calendar together*/
+#centereverything {
+    /*all this centres both events and calendar */
+    z-index: -1;
+    height: 650px;
+    width: 910px;
+    position:absolute;
+    top: 80px;
+    left: 50%;
+    /*margin-top: -250px;*/ /*set to a negative number 1/2 of your height*/
+    margin-left: -450px;*/ /*set to a negative number 1/2 of your width
+    /*z-index: -1;
+    height: 650px;
+    width: 910px;
+    position:absolute;
+    top: 70px;
+    left: 50px;*/
+}
+
+
+/*highlight a date text box */
+#highlightadate{
+    width: 250px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 10px; 
+    background-color: white;
+    color: #223D8F;
+    font-size: 14px;
+}
+
+/*click on a date text box */
+#clickonadate{
+    width: 250px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 280px; 
+    background-color: white;
+    color: #223D8F;
+    font-size: 14px;
+}
+
+/*upcoming events box */
+#events{
+    width: 250px;
+    height: 428px;
+    position: absolute;
+    top: 78px;
+    left: 0px; 
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    /* rounding the corners*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    /* box shadowing */
+/*-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;*/
+}
+
+/*upcoming events heading div */
+#eventsheading {
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    top: 33px;
+    left: 0px; 
+    background-color: #223D8F;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+       /* rounding the corners*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#headingcontent{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+#editeventdiv{
+    position: absolute;
+    top: 520px;
+    left: 10px;
+}
+
+#deleteeventdiv {
+    position: absolute;
+    top: 520px;
+    left: 95px;
+}
+
+button.edit {
+    font-size: 12px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.edit:hover {
+    cursor: pointer;
+}
+
+button.delete {
+    font-size: 12px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.delete:hover {
+    cursor: pointer;
+}
+
+/*all below is for the datepicker */
+/* whole box */
+.ui-datepicker {
+  width: 605px;
+  height: auto;
+  /*margin: 50px auto 0;*/
+  position: absolute;
+    top: 33px;
+    left: 270px; 
+  font: 12px;
+    /*border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;*/
+ /* box shadowing */
+/*-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;*/
+  /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+/*taking underline away from dates */
+.ui-datepicker a {
+  text-decoration: none;
+}
+
+/*making it stretch accross the whole of the width at the top */
+.ui-datepicker table {
+  width: 100%;
+}
+
+/*header */
+.ui-datepicker-header {
+  height: 40px;
+  background-color:   #223D8F;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+      /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+/* centering the month title */
+.ui-datepicker-title {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+/*replcing previous and next with images */
+.ui-datepicker-prev, .ui-datepicker-next {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* possitioning of previous and next arrows */
+.ui-datepicker-prev {
+  float: left;
+  margin-left: 10px;
+  background-position: center -30px;
+}
+.ui-datepicker-next {
+  float: right;
+    margin-right: 40px;
+  background-position: center 0px;
+}
+
+/* days of the week */
+.ui-datepicker thead {
+  background-color: white;
+    height: 40px;
+}
+
+/* days of the week text */
+.ui-datepicker th {
+  text-transform: uppercase;
+  font-size: 10pt;
+  color: black;
+}
+
+/* all dates spacing and border */
+.ui-datepicker tbody td {
+  padding: 0;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 75px;
+  background-color: white;
+  border-right: 1px solid white;
+  height: 75px;
+  width: 83px;
+  border-bottom: 1px solid white; 
+  font-size: 16px;
+}
+
+/*except for last td, remove border */
+.ui-datepicker tbody td:last-child {
+  border-right: 0px;
+}
+
+/*same for rows spacing*/
+.ui-datepicker tbody tr {
+  border-bottom: 1px solid white;
+}
+.ui-datepicker tbody tr:last-child {
+  border-bottom: 0px;
+}
+
+/*dates colour */
+.ui-datepicker td span, .ui-datepicker td a {
+  display: inline-block;
+  font-weight: bold;
+  color: #223D8F;
+  width: 83px;/*change these with box hight and width */
+  height: 75px;/*change these with box hight and width */
+}
+
+/* unselectable dates from previous or next month*/
+.ui-datepicker-unselectable .ui-state-default {
+  color: #b4b3b3;
+  background-color: white;
+}
+
+/*when you hover over date */
+.ui-datepicker-calendar .ui-state-hover {
+  background: #223D8F;
+  color: white;
+    
+    /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+/*if theres an event on the date */
+.ui-state-event .ui-state-default {
+    background-color: /*#B5E1FC*/ #D2EBFB;
+    background-image :none !important;
+    color: white!important;
+    
+       /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+/*todays date */
+.ui-datepicker-calendar .ui-state-active {
+    background: #223D8F;
+    color: white;
+    
+       /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+/*removes random bar from datepicker*/
+#ui-datepicker-div { display: none; }
+
+/*popup div to add events */
+#eventspopup {
+    z-index: 997;
+    width: 700px;
+    height: 500px;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -350px; /*set to a negative number 1/2 of your width*/
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    /*opacity: 0.95;*/
+    visibility: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+    /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+
+/*possitioning of all things in the adding events dialog */
+#date {
+    position: absolute;
+    /*top: 15px;
+    left: 290px;*/
+    top: 15px;
+    left: 50%;
+    margin-left: -70px; /*set to a negative number 1/2 of your width*/
+    font-size: 20px;
+    text-align: center;
+}
+
+#hiddendate {
+    position: absolute;
+    top: 50px;
+    left: 305px;
+    visibility: hidden;
+}
+
+#eventstartdate {
+    position: absolute;
+    top: 10px;
+    left: 245px;
+}
+
+#title {
+    position: absolute;
+    top: 70px;
+    left: 256px;
+}
+
+#destination {
+    position: absolute;
+    top: 160px;
+    left: 90px;
+}
+
+#eventstarttime {
+    position: absolute;
+    top: 250px;
+    left: 70px;
+}
+
+#destinationpc {
+    position: absolute;
+    top: 310px;
+    left: 86px;
+}
+
+#meetingdestination {
+    position: absolute;
+    top: 160px;
+    left: 455px;
+}
+
+#meetingtime {
+    position: absolute;
+    top: 250px;
+    left: 460px;
+}
+
+#meetingdestinationpc {
+    position: absolute;
+    top: 310px;
+    left: 440;
+}
+
+#addeventbuttons {
+    position: absolute;
+    top: 420px;
+    left: 260px;
+}
+
+input {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    background-color: white;
+}
+
+/*input text box css */
+ input[type="submit"]{
+/* submit button properties */
+background-color: /*#515B68*/white;
+color: #223D8F;
+border-style: solid;
+border-width: 2px;
+border-color: #223D8F;
+font-size: 12px;
+border-radius: 10px;
+    }
+
+    input[type="submit"]:hover{
+cursor: pointer;
+    }
+
+button.canceladd {
+    font-size: 12px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.canceladd:hover {
+    cursor: pointer;
+}
+
+#submitaddevent{
+    position: absolute;
+    top: 0px;
+    left: 00px;
+}
+
+#canceladdevent{
+    position: absolute;
+    top: 0px;
+    left: 95px;
+}
+
+#idnumber{
+    visibility: hidden;
+}
+
+/*div class to simulate the popup menu so all error messages can still be possitioned correctly when needed*/
+#errorposition {
+    z-index: 998;
+    width: 700px;
+    height: 500px;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -350px; /*set to a negative number 1/2 of your width*/
+    color: red;
+}
+
+/*popup div to edit events */
+#editeventspopup {
+    z-index: 997;
+    width: 700px;
+    height: 500px;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -350px; /*set to a negative number 1/2 of your width*/
+    background-color: /*#515B68*/ white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    /*opacity: 0.95;*/
+    visibility: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+    /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+/*error message properties */
+#notfilledin {  
+z-index: 999;
+font-size: 12px;
+position: absolute;
+    top: 385px;
+    left: 230px; 
+visibility: hidden;
+}
+
+/*popup div to delete events */
+#deleteeventspopup {
+    z-index: 997;
+    width: 700px;
+    height: 500px;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -350px; /*set to a negative number 1/2 of your width*/
+    background-color: /*#515B68*/ white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    /*opacity: 0.95;*/
+    visibility: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+    /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+/*
+#eventStartdates {
+    visibility: hidden;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
