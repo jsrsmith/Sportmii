@@ -1,0 +1,615 @@
+/* font of the whole of the body */
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.profileLeagueExplanation{
+    color: #223D8F;
+    font-size: 14px;
+    top: 0px;
+    position: relative;
+    left: 20px;
+    width: 300px;
+}
+
+.profileFixturesExplanation{
+    color: #223D8F;
+    font-size: 14px;
+    position: relative;
+    top: 0px;
+    left: 20px;
+    width: 300px;
+}
+
+.profileDefaultLeagueTeam {
+    position: relative;
+    top: 15px;
+    left: 20px;
+    font-size: 12px;
+    background-color: #223D8F;
+    color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #223D8F;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.profileDefaultLeagueTeam:hover {
+    cursor: pointer;
+}
+
+.defaultTeamForLeagueTablePopup {
+    z-index: 997;
+    width: 700px;
+    height: 500px;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -350px; /*set to a negative number 1/2 of your width*/
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    /*opacity: 0.95;*/
+    visibility: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+    /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+.defaultTeamForLeagueTableTitle {
+    position: absolute;
+    top: 70px;
+    left: 208px;
+    color: white;
+    background-color: #223D8F;
+    height: 30px;
+    width: 300px;
+    font-size: 16px;
+    line-height: 0px;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.defaultTeamForLeagueTableSelectTeam {
+    position: absolute;
+    top: 145;
+    left: 305;
+}
+
+select, option { width: 100px; }
+
+.defaultTeamForLeagueTableDropdown{
+    position: absolute;
+    top: 200;
+    left: 295;
+}
+
+.defaultTeamForLeagueTableExplanation{
+    position: absolute;
+    top: 300;
+    left: 50;
+    font-size: 12px;
+    color: red;
+}
+
+.defaultTeamForLeagueTablePopupButtons {
+    position: absolute;
+    top: 420px;
+    left: 290px;
+}
+
+button.cancelDefaultTeam {
+    font-size: 12px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.cancelDefaultTeam:hover {
+    cursor: pointer;
+}
+
+.submitDefaultTeam{
+    position: absolute;
+    top: 0px;
+    left: 00px;
+}
+
+.canceldefaultTeamForLeagueTable{
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+
+
+
+button.TeamDefaultLeague {
+    position: relative;
+    top: 15px;
+    left: 20px;
+    font-size: 12px;
+    background-color: #223D8F;
+    color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #223D8F;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+button.TeamDefaultLeague:hover {
+    cursor: pointer;
+}
+
+.defaultLeagueForLeagueTablePopup {
+    z-index: 997;
+    width: 700px;
+    height: 500px;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -350px; /*set to a negative number 1/2 of your width*/
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    /*opacity: 0.95;*/
+    visibility: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+    /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+.defaultLeagueForLeagueTableTitle {
+    position: absolute;
+    top: 70px;
+    left: 208px;
+    color: white;
+    background-color: #223D8F;
+    height: 30px;
+    width: 300px;
+    font-size: 16px;
+    line-height: 0px;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.teamDefaultLeaguesSportDropdown {
+    position:absolute;
+    top: 170px;
+    left: 20px;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.teamDefaultLeaguesYearDropdown {
+    position:absolute;
+    top: 170px;
+    left: 155px;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.teamDefaultLeaguesDistrictDropdown {
+    position:absolute;
+    top: 170px;
+    left: 290px;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.teamDefaultLeaguesAgeDropdown {
+    position:absolute;
+    top: 170px;
+    left: 425px;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.teamDefaultLeaguesDivisionDropdown {
+    position:absolute;
+    top: 170px;
+    left: 570px;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#teamDefaultLeaguesSearchAmateurSubmit{
+    position: absolute;
+    top: 250px;
+    left: -275px;
+    font-size: 12px;
+}
+
+.clubDefaultLeaguesSportDropdown {
+    position:absolute;
+    top: 170px;
+    left: 20px;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.clubDefaultLeaguesYearDropdown {
+    position:absolute;
+    top: 170px;
+    left: 155px;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.clubDefaultLeaguesDistrictDropdown {
+    position:absolute;
+    top: 170px;
+    left: 290px;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.clubDefaultLeaguesAgeDropdown {
+    position:absolute;
+    top: 170px;
+    left: 425px;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.clubDefaultLeaguesDivisionDropdown {
+    position:absolute;
+    top: 170px;
+    left: 570px;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#clubDefaultLeaguesSearchAmateurSubmit{
+    position: absolute;
+    top: 250px;
+    left: -275px;
+    font-size: 12px;
+}
+
+button.cancelDefaultLeague {
+    position: absolute;
+    top: 420px;
+    left: 375px;
+    font-size: 12px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.cancelDefaultLeague:hover {
+    cursor: pointer;
+}
+
+
+.profileNoFixturesSet{
+    color: #223D8F;
+    font-size: 14px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 300px;
+}
+
+
+.changeDefaultLeagueInstruction{
+    position: relative;
+    top: 0px;
+    left: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle; 
+    text-decoration: none;
+    padding: 3px;
+}
+
+.changeDefaultLeagueInstruction{
+    cursor: pointer;
+}
+
+.TeamDefaultLeagueChange{
+    position: relative;
+    top: 0px;
+    left: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle; 
+    text-decoration: none;
+    padding: 3px;
+}
+
+.TeamDefaultLeagueChange{
+    cursor: pointer;
+}
+
+.changeDefaultLeagueInstructionPopup {
+    z-index: 997;
+    width: 700px;
+    height: 500px;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -350px; /*set to a negative number 1/2 of your width*/
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    /*opacity: 0.95;*/
+    visibility: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+    /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+.changeLeagueTableExplanation{
+    position: absolute;
+    top: 200;
+    left: 00;
+    font-size: 12px;
+    color: red;
+}
+
+button.navigateToLeague {
+    position: absolute;
+    top: 350px;
+    left: 319px;
+    font-size: 12px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.navigateToLeague:hover {
+    cursor: pointer;
+}
+
+button.cancelNavigateToLeague {
+    position: absolute;
+    top: 420px;
+    left: 320px;
+    font-size: 12px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.cancelNavigateToLeague:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*all below is for the league tables and fixtures */
+
+.leaguesCentreAllDivs {
+    z-index: -1;
+    width: 350px;
+    height: auto;
+    position: relative;
+    top: 0px;
+    left: 0px; 
+}
+
+.leagueTitle {
+    position:relative;
+    top: 0px;
+    left: 0px;
+    color: #223D8F;
+    font-size: 14px;
+    width: 350px;
+    height: auto;
+    font-weight: bold;
+}
+
+
+.createLeagueTable {
+    width: 350;
+    border-collapse: collapse;
+    border-top: solid;
+    border-color: #223D8F;
+    border-width: 3px;
+    
+    position: relative;
+    float: left;
+    clear: both;
+}
+
+.createLeagueTable th:nth-child(1){width:10%;}
+.createLeagueTable th:nth-child(2){width:50%;}
+.createLeagueTable th:nth-child(3){width:10%;}
+.createLeagueTable th:nth-child(4){width:10%;}
+.createLeagueTable th:nth-child(5){width:20%;}
+
+.createLeagueTable th{
+    text-align: center;
+    font-size: 14px;
+    height: 30px;
+    /*border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;*/
+}
+
+.createLeagueTable td:nth-child(1){width:10%;}
+.createLeagueTable td:nth-child(2){width:50%; text-align: left; padding-left: 5px;}
+.createLeagueTable td:nth-child(3){width:10%;}
+.createLeagueTable td:nth-child(4){width:10%;}
+.createLeagueTable td:nth-child(5){width:20%;}
+
+.createLeagueTable td{
+    text-align: center;
+    font-size: 14px;
+    height: 40px;
+    /*border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;*/
+}
+
+.createLeagueTable tr:nth-child(even){
+    background-color: #D2EBFB;
+}
+
+
+
+/*all below is for fixtures */
+.createGameDateTableTitle{
+    float: left;
+    clear: both;
+    color: #223D8F;
+    font-size: 16px;
+    width: 350px;
+    height: 20px; 
+    text-align: center;
+}
+
+.createGameDateTableDiv {
+    float: left;
+    clear: both;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.createGameDateTable {
+    height: auto;
+    width: 350;
+    border-collapse: collapse;
+    border-top: solid;
+    border-color: #223D8F;
+    border-width: 3px;
+}
+
+.createGameDateTable th:nth-child(1){width:10%;}
+.createGameDateTable th:nth-child(2){width:35%;}
+.createGameDateTable th:nth-child(3){width:20%;}
+.createGameDateTable th:nth-child(4){width:35%;}
+
+
+.createGameDateTable th{
+    text-align: center;
+    font-size: 14px;
+    height: 30px;
+    /*border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;*/
+}
+
+.createGameDateTable th:nth-child(1){width:10%;}
+.createGameDateTable th:nth-child(2){width:35%;}
+.createGameDateTable th:nth-child(3){width:20%;}
+.createGameDateTable th:nth-child(4){width:35%;}
+
+
+
+.createGameDateTable td{
+    text-align: center;
+    font-size: 14px;
+    height: 40px;
+    /*border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;*/
+}
+
+.createGameDateTable tr:nth-child(even){
+    background-color: #D2EBFB;
+}

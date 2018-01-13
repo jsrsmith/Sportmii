@@ -1,0 +1,381 @@
+/* font of the whole of the body */
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.scout.scout {
+    position: absolute;
+    top: 32px;
+    left: 105px;
+    font-size: 14px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.scout:hover {
+    cursor: pointer;
+}
+
+.unscout.unscout {
+    position: absolute;
+    top: 32px;
+    left: 105px;
+    font-size: 14px;
+    background-color: white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.unscout:hover {
+    cursor: pointer;
+}
+
+.profileScoutingBoth {
+    z-index: 5;
+    width: auto;
+    height: 25px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 14px;
+    vertical-align: middle;
+    line-height: 0px;
+}
+
+.profileScoutingBoth:hover {
+    color: #223D8F;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.profileScouting {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 14px;
+}
+
+.profileScoutingcount {
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    font-size: 14px;
+}
+
+.profileScoutedBoth {
+    z-index: 5;
+    width: auto;
+    height: 25px;
+   position: absolute;
+    top: 25px;
+    left: 0px;
+    font-size: 14px;
+    vertical-align: middle;
+    line-height: 0px;
+}
+
+.profileScoutedBoth:hover {
+    color: #223D8F;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.profileScouted {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 14px;
+}
+
+.profileScoutedcount {
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    font-size: 14px;
+}
+
+
+.profileScoutingPopup {
+    z-index: 999;
+    width: 700px;
+    height: 500px;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -350px; /*set to a negative number 1/2 of your width*/
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    visibility: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+     /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+.profileScoutingPopupTitle {
+    z-index: 1;
+    height: 30px;
+    width: 300px;
+    
+    position:absolute;
+    top: 40px;
+    left: 200px;
+    
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #223D8F;
+    color: white;
+    
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5px;
+    overflow: hidden;
+    
+    /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+
+.profileScoutingBoxWithScroll {
+    position:absolute;
+    top: 100px;
+    left: 140px;
+    
+    width: 410px;
+    height: 320px;
+    
+    overflow-y: scroll;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.profileScoutingList {
+    width: 410px;
+    height: 50px;
+    background-color: white;
+    border-style: none; 
+    display: list-item;
+    list-style: none;
+    padding-top: 5px;
+}
+
+.profileScoutingUsernameButton{
+    width: 410px;
+    background-color: white;
+    border-style: none;
+    line-height: 0px;
+    text-align: center;
+}
+
+.profileScoutingUsernameButton:hover{
+    margin: -1px;
+    color:#223D8F;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    outline:none;
+    cursor: pointer;
+}
+
+.profileScoutingName{
+    color: #223D8F;
+    font-size: 14px;
+}
+
+.profileScoutingUsername{
+    color:lightgray;
+    font-size: 12px;
+}
+
+.profileScoutingButtons {
+    position: absolute;
+    top: 450px;
+    left: 320px;
+}
+
+.profileCancelScouting {
+    font-size: 14px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.profileCancelScouting:hover {
+    cursor: pointer;
+}
+
+.profileScoutedPopup {
+    z-index: 999;
+    width: 700px;
+    height: 500px;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -350px; /*set to a negative number 1/2 of your width*/
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    visibility: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+     /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+.profileScoutedPopupTitle {
+    z-index: 1;
+    height: 30px;
+    width: 300px;
+    
+    position:absolute;
+    top: 40px;
+    left: 200px;
+    
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #223D8F;
+    color: white;
+    
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5px;
+    overflow: hidden;
+    
+    /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+
+.profileScoutedBoxWithScroll {
+    position:absolute;
+    top: 100px;
+    left: 140px;
+    
+    width: 410px;
+    height: 320px;
+    
+    overflow-y: scroll;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.profileScoutedList {
+    width: 410px;
+    height: 50px;
+    background-color: white;
+    border-style: none; 
+    display: list-item;
+    list-style: none;
+    padding-top: 5px;
+}
+
+.profileScoutedUsernameButton{
+    width: 410px;
+    background-color: white;
+    border-style: none;
+    line-height: 0px;
+    text-align: center;
+}
+
+.profileScoutedUsernameButton:hover{
+    margin: -1px;
+    color:#223D8F;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    outline:none;
+    cursor: pointer;
+}
+
+.profileScoutedName{
+    color: #223D8F;
+    font-size: 14px;
+}
+
+.profileScoutedUsername{
+    color:lightgray;
+    font-size: 12px;
+}
+
+.profileScoutedButtons {
+    position: absolute;
+    top: 450px;
+    left: 320px;
+}
+
+.profileCancelScouted {
+    font-size: 14px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.profileCancelScouted:hover {
+    cursor: pointer;
+}

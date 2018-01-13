@@ -1,0 +1,303 @@
+/* font of the whole of the body */
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    
+    /* background image location */
+   background-image: url(images/football%20image.jpg);
+   
+    /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale base on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #0000;
+   
+    
+}
+
+h1{
+    display: none;
+}
+
+/* image heading possitioning on the screen */
+/*#sportmiitext {
+    position: absolute;
+    top: 75px;
+    left: 115px;
+}*/
+
+/* postion of signupdetails box */
+
+/* all signup details box */
+#signupdetails {
+    
+    /* text allignment and size */
+    text-align: center;
+    font-size: 12px;
+    line-height: 60px;
+    
+    /* text colour */
+    color: #AFAEAE;
+        
+    /* box dimentions */
+    height: 580px;
+    width: 300px;
+    background-color: white;
+    
+      
+    /* moving the box away from the left side of the screen */
+    margin: 115px;
+    
+    /* moving the box down from the top of the screen */
+    margin-top: 60px;
+    
+    /* distance to text from edge of box */
+    padding: 20px;
+
+
+    /* box shadowing */
+-moz-box-shadow: 5px 5px 5px 5px #CFCDCD;
+-webkit-box-shadow: 5px 5px 5px 5px #CFCDCD;
+box-shadow: 5px 5px 5px 5px #CFCDCD;
+    
+    /* rounding the corners */
+    border: 5px white;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+}
+
+
+/* sportmii logo possitioning next to logo */
+#sportmiiimage {
+    position: absolute;
+    top: 70px;
+    left: 330px;   
+}
+
+#sportconnectedtogether {
+    font-size: 20px;
+    color: #223D8F;
+    text-align: left;
+    line-height: 20px;
+    position: absolute;
+    top:90px;
+    left:180px;
+}
+
+#blueline{
+    height:2px;
+    background:#223D8F;
+    width: 300px;
+}
+
+#allinputsspace{
+margin-top: 30px;
+line-height: 100%;    
+}
+
+#firstnamespace {
+    line-height: 300%;
+}
+
+#surnamespace {
+    line-height: 300%;
+}
+
+#genderspace {
+    line-height: 300%;
+}
+
+#dobspace {
+    line-height: 300%;
+}
+
+#emailspace {
+    line-height: 300%;
+}
+
+#usernamespace {
+    line-height: 300%;
+}
+
+#passwordspace {
+    line-height: 300%;
+}
+
+#primarysportspace {
+    line-height: 300%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+input {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+}
+
+    input[type="submit"]{
+/* submit button properties */
+background-color: /*#515B68*/white;
+color: #223D8F;
+border-style: solid;
+border-width: 2px;
+border-color: #223D8F;
+font-size: 12px;
+border-radius: 10px;
+    }
+
+    input[type="submit"]:hover{
+/* submit button properties */
+background-color: /*#515B68*/white;
+color: #223D8F;
+border-style: solid;
+border-width: 2px;
+border-color: #223D8F;
+font-size: 12px;
+border-radius: 10px;
+cursor: pointer;
+    }
+
+/*error message properties */
+#notfilledin {  
+z-index: 1;
+font-size: 12px;
+color: red;
+position: absolute;
+    top: 580px;
+    left: 200px;  
+}
+
+/*error message properties */
+#notfilledincon {  
+z-index: 1;
+font-size: 12px;
+color: red;
+position: absolute;
+    top: 550px;
+    left: 200px;  
+}
+
+/*error message if firstname and surnames are too long */
+#namestoolong {  
+z-index: 1;
+font-size: 12px;
+text-align: center;
+color: red;
+position: absolute;
+    top: 580px;
+    left: 180px; 
+
+}
+
+
+/* error message if username is already taken */
+#usernameinuse {
+z-index: 1;
+font-size: 12px;
+color: red;
+position: absolute;
+    top: 550px;
+    left: 180px;
+}
+
+/* email in use div */
+#emailinuse {
+z-index: 1;
+font-size: 12px;
+    color: red;
+position:absolute;
+    top: 550px;
+    left: 170px;
+}
+
+/* email in use div */
+#usernameMustContainLetters {
+z-index: 1;
+font-size: 12px;
+    color: red;
+position:absolute;
+    top: 550px;
+    left: 170px;
+}
+
+/* Accordion CSS */
+
+/*----- Accordion -----
+.accordion, .accordion * {
+    -webkit-box-sizing:border-box; 
+    -moz-box-sizing:border-box; 
+    box-sizing:border-box;
+}
+
+----- main text area -----
+.accordion {
+    overflow:hidden;*/
+    /*box-shadow:0px 1px 3px rgba(0,0,0,0.25);*/
+    /*border-radius:5px;
+    background:white;
+}
+ 
+----- Main title changes -----
+.accordion-section-title {
+    width:100%;
+    padding:0px;
+    display:inline-block;
+    background:white;
+    transition:all linear 0.15s;*/
+    /* Type */
+  /*  font-size:14px;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    font-size: 12px;
+    border-radius: 5px;
+}
+ 
+----- Title when you active -----
+.accordion-section-title.active {
+    background:white;*/
+    /* Type */
+ /*   text-decoration:none;
+    font-weight: bold;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.accordion-section-title:hover{
+    background:white;*/
+    /* Type */
+  /* text-decoration:none;
+    font-weight: bold;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    font-size: 12px;
+    border-radius: 5px;
+}
+ 
+----- space between title and text content -----
+.accordion-section-content {
+    padding:0px;
+    display:none;
+}*/
+

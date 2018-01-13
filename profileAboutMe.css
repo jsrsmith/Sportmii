@@ -1,0 +1,186 @@
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+   background-color: white;
+}
+
+#aboutMeTitle {
+    z-index: 1;
+    height: 30px;
+    width: 300px;
+    
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #223D8F;
+    color: white;
+    
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5px;
+    overflow: hidden;
+    
+         /* box shadowing 
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;*/
+    
+    /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#aboutMeIntro {
+    z-index: 1;
+    height: 150px;
+    width: 300px;
+    
+    position:absolute;
+    top: 32px;
+    left: 0px;
+    
+    font-size: 14px;
+    background-color: white;
+    color: #223D8F;
+    
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    
+    /*border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;*/
+}
+
+#aboutMeIntro:hover {
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+    /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#aboutMePopup {
+    z-index: 999;
+    width: 700px;
+    height: 500px;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -350px; /*set to a negative number 1/2 of your width*/
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    visibility: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+     /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+#aboutMePopupTitle {
+    z-index: 1;
+    height: 30px;
+    width: 300px;
+    
+    position:absolute;
+    top: 70px;
+    left: 200px;
+    
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #223D8F;
+    color: white;
+    
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5px;
+    overflow: hidden;
+    
+    /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#editAboutMeIntroduction {
+    position: absolute;
+    top: 162px;
+    left: 140px;
+    
+    font-size: 12px;  
+}
+
+#aboutMeIntroductionInfo{
+    position: absolute;
+    top: 170px;
+    left: 240px;
+}
+
+#aboutMeIntroductionInfo:hover{
+    cursor: pointer;
+}
+
+#aboutMeIntroductionInfoText {
+    z-index: 1;
+    position: absolute;
+    top: 179px;
+    left: 257px;
+    
+    height: 70px;
+    width: 300px;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    
+    background-color: ghostwhite;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+    visibility: hidden;
+}
+
+#aboutMeIntroductionText {
+    position: absolute;
+    top: 175px;
+    left: 260px;
+    
+    height:80px;
+    width: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+
+#aboutMeIntroductionCount {
+    position: absolute;
+    top: 260;
+    left: 260px;
+    font-size: 12px;
+    color: grey;
+}
+
+#editAboutMeButtons {
+    position: absolute;
+    top: 400px;
+    left: 300px;
+}
