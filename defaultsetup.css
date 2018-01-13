@@ -1,0 +1,253 @@
+/* font of the whole of the body */
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+
+/*all navigation css*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: /*#515B68*/white;
+    border-style: solid;
+    border-width: 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #223D8F;
+}
+
+ #navigationbar li{
+    display: block;
+    float: left;
+    color: whitesmoke;
+    height: 40px;
+    line-height: 40px; /* must be same as height value */
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    /* border:solid 2px;
+    border-color: transparent transparent #585858 transparent;*/
+}
+
+#navigationbar li a {
+    color: #223D8F;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 9px 25px;
+}
+
+#navigationbar li a:hover {
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-top-color: #223D8F;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: white;
+}
+
+#navigationbar .active {
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-top-color: #223D8F;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: white;
+}
+
+
+#centerimage { 
+    position:absolute;
+    top: 0px;
+    left: 50%;
+    /*margin-top: -40px; set to a negative number 1/2 of your height*/
+    margin-left: -45px; /*set to a negative number 1/2 of your width*/
+    }
+
+#imagebackground {
+    z-index: 1;
+    height: 60px;
+    width: 90px;
+    background: white;
+}
+
+#sportmiiimage {
+    display: inline;
+    position:absolute;
+    top: 50%;
+    left: 53%;
+    margin-top: -25px; /*set to a negative number 1/2 of your height*/
+    margin-left: -20px; /*set to a negative number 1/2 of your width*/
+    }
+
+#searchBox {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    height: 20px;
+    width: 250px;
+    /* rounding the corners */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#myTeamsList {
+    z-index: 999;
+    position: absolute;
+    top: 40;
+    left: 395;
+    height: auto;
+    width: auto;
+    list-style:none;
+    padding: 10px;
+    margin: 0;
+    display:block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    font-size: 14px;
+    color: #223D8F;
+    background-color: white;
+    /* rounding the corners */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    display: none;
+}
+
+button.differentTeam {
+    font-size: 14px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: none;
+    display: list-item;
+    padding: 5px;
+    margin: 1px;
+}
+
+button.differentTeam:hover {
+    margin: -1px;
+    color:#223D8F;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    outline:none;
+    cursor: pointer;
+}
+
+#myClubsList {
+    z-index: 999;
+    position: absolute;
+    top: 40;
+    left: 487;
+    height: auto;
+    width: auto;
+    list-style:none;
+    padding: 10px;
+    margin: 0;
+    display:block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    font-size: 14px;
+    color: #223D8F;
+    background-color: white;
+    /* rounding the corners */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    display: none;
+}
+
+button.differentClub {
+    font-size: 14px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: none;
+    display: list-item;
+    padding: 5px;
+    margin: 1px;
+}
+
+button.differentClub:hover {
+    margin: -1px;
+    color:#223D8F;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    outline:none;
+    cursor: pointer;
+}
+
+#searchSubmit {
+    display: none;
+}
+    
+/* Autocomplete
+----------------------------------*/
+.ui-autocomplete { position: absolute; cursor: default; }       
+.ui-autocomplete-loading { background: white url('images/ui-anim_basic_16x16.gif') right center no-repeat; }
+
+/* workarounds */
+* html .ui-autocomplete { width:1px; } /* without this, the menu expands to 100% in IE6 */
+
+/* Menu
+----------------------------------*/
+.ui-menu {
+        position: absolute;
+        top: 30px;
+        right: 180px;
+        z-index: 999;
+        list-style:none;
+        padding: 10px;
+        margin: 0;
+        display:block;
+        width:227px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #223D8F;
+        font-size: 14px;
+        color: #223D8F;
+    /* rounding the corners */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.ui-menu .ui-menu {
+        margin-top: -3px;
+}
+.ui-menu .ui-menu-item {
+        margin:0;
+        padding: 0;
+        width: 200px;
+}
+
+.ui-menu .ui-menu-item a {
+        text-decoration:none;
+        display:block;
+        padding:.2em .4em;
+        line-height:1.5;
+        zoom:1;
+}
+
+.ui-state-focus
+{
+    margin: -1px;
+    color:#223D8F;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    outline:none;
+    cursor: pointer;
+}
+
+.ui-autocomplete-category {
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+

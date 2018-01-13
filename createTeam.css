@@ -1,0 +1,277 @@
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+   background-color: white;
+/*line-height: 0px;*/
+}
+
+#createTeamTitle {
+    width: 900px;
+    height: 50px;
+    position:absolute;
+    top: 100;
+    left: 50%;
+    /*margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -450px; /*set to a negative number 1/2 of your width*/
+    background-color: #223D8F;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5px;
+    font-size: 25px;
+    
+    /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#createTeamOutsideBox {
+    width: 900px;
+    height: 400px;
+    position:absolute;
+    top: 230;
+    left: 50%;
+    /*margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -450px; /*set to a negative number 1/2 of your width*/
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+     /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+#createTeamExplanation {
+    position: absolute;
+    top: 170;
+    left: 50%;
+     margin-left: -450px; /*set to a negative number 1/2 of your width*/
+    height: 50px;
+    width: 900px;
+    
+    color: #223D8F;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10px;
+}
+
+/* all titles */
+
+#createTeamTeamNameTitle {
+    position: absolute;
+    top: 20;
+    right: 475;
+    line-height: 0px;
+}
+
+#createTeamAddressTitle {
+    position: absolute;
+    top: 65;
+    right: 630;
+    line-height: 15px;
+}
+
+#createTeamTeamEmailTitle {
+    position: absolute;
+    top: 200;
+    right: 640;
+    line-height: 0px;
+}
+
+#createTeamTeamWebsiteTitle {
+    position: absolute;
+    top: 255;
+    right: 630;
+    line-height: 0px;
+}
+
+#createTeamManagersFirstnameTitle {
+    position: absolute;
+    top: 70;
+    right: 143;
+    line-height: 0px;
+}
+
+#createTeamManagersSurnameTitle {
+    position: absolute;
+    top: 135;
+    right: 143;
+    line-height: 0px;
+}
+
+#createTeamManagersContactNumberTitle {
+    position: absolute;
+    top: 195;
+    right: 113;
+    line-height: 0px;
+}
+
+#createTeamManagersEmailTitle {
+    position: absolute;
+    top: 255;
+    right: 154;
+    line-height: 0px;
+}
+
+/*all inputs */
+
+#createTeamTeamName {
+    position: absolute;
+    top: 28;
+    left: 435;
+}
+
+#createTeamAddressLine1 {
+    position: absolute;
+    top: 105;
+    left: 150;
+}
+
+#createTeamAddressLine2 {
+    position: absolute;
+    top: 125;
+    left: 150;
+}
+
+#createTeamAddressLine3 {
+    position: absolute;
+    top: 145;
+    left: 150;
+}
+
+#createTeamPostCode {
+    position: absolute;
+    top: 165;
+    left: 150;
+}
+
+#createTeamTeamEmail {
+    position: absolute;
+    top: 230;
+    left: 150;
+}
+
+#createTeamTeamWebsite {
+    position: absolute;
+    top: 285;
+    left: 150;
+}
+
+#createTeamManagersFirstname {
+    position: absolute;
+    top: 105;
+    right: 150;
+}
+
+#createTeamManagersSurname {
+    position: absolute;
+    top: 165;
+    right: 150;
+}
+
+#createTeamManagersContactNumber {
+    position: absolute;
+    top: 225;
+    right: 150;
+}
+
+#createTeamManagersEmail {
+    position: absolute;
+    top: 285;
+    right: 150;
+}
+
+input {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+}
+
+ input[type="submit"]{
+background-color: white;
+color: #223D8F;
+border-style: solid;
+border-width: 2px;
+border-color: #223D8F;
+font-size: 12px;
+border-radius: 10px;
+    }
+
+    input[type="submit"]:hover{
+cursor: pointer;
+    }
+
+#createNewTeamFootball {
+    position: absolute;
+    top: 340;
+    left: 400;
+}
+
+/*error message properties */
+#createTeamNotFilledIn {  
+z-index: 999;
+font-size: 12px;
+position: absolute;
+    top: 285px;
+    left: 335px;
+color: red;
+visibility: hidden;
+}
+
+/*error message properties */
+#createTeamContactNumber {  
+z-index: 999;
+font-size: 12px;
+position: absolute;
+    top: 307px;
+    left: 270px;
+color: red;
+visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,170 @@
+/* font of the whole of the body */
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    
+    /* background image location */
+   background-image: url(images/football%20image.jpg);
+   
+    /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale base on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #0000;    
+}
+
+
+h1{
+    display: none;
+}
+
+/* all login details box */
+#logindetails {
+    
+    /* text allignment and size */
+    text-align: center;
+    font-size: 12px;
+    line-height: 60px;
+    
+    /* text colour */
+    color: #AFAEAE;
+        
+    /* box dimentions */
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    
+    
+    /* moving the box away from the left side of the screen */
+    margin: 115px;
+    
+    /* moving the box down from the top of the screen */
+    margin-top: 60px;
+    
+    /* distance to text from edge of box */
+    padding: 20px;
+    
+
+    /* box shadowing */
+-moz-box-shadow: 5px 5px 5px 5px #CFCDCD;
+-webkit-box-shadow: 5px 5px 5px 5px #CFCDCD;
+box-shadow: 5px 5px 5px 5px #CFCDCD;
+    
+    /* rounding the corners */
+    border: 5px white;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+}
+
+/*sportmii logo possitioning next to logo */
+#sportmiiimage {
+    position: absolute;
+    top: 70px;
+    left: 330px;  
+}
+
+#sportconnectedtogether {
+    font-size: 20px;
+    color: #223D8F;
+    text-align: left;
+    line-height: 20px;
+    position: absolute;
+    top:90px;
+    left:180px;
+}
+
+#blueline{
+    height:2px;
+    background:#223D8F;
+    width: 300px;
+}
+
+input {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+}
+
+/*error message properties */
+#notfilledin {  
+z-index: 1;
+font-size: 12px;
+color: red;
+position: absolute;
+    top: 400px;
+    left: 185px;  
+}
+
+/*error message if firstname and surnames are too long */
+.incorrect {  
+z-index: 1;
+font-size: 12px;
+text-align: center;
+color: red;
+position: absolute;
+    top: 400px;
+    left: 172px; 
+
+}
+    
+/* link properties */
+/* unvisited link */
+a:link {
+    color: #223D8F;
+    font-weight: bold;
+}
+/* visited link */
+a:visited {
+    color: #223D8F;
+    font-weight: bold;
+}
+/* mouse over link */
+a:hover {
+    color: #223D8F;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* selected link */
+a:active {
+    color: #223D8F;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+    input[type="submit"]{
+/* submit button properties */
+background-color: /*#515B68*/white;
+color: #223D8F;
+border-style: solid;
+border-width: 2px;
+border-color: #223D8F;
+font-size: 12px;
+border-radius: 10px;
+    }
+
+    input[type="submit"]:hover{
+/* submit button properties */
+background-color: /*#515B68*/white;
+color: #223D8F;
+border-style: solid;
+border-width: 2px;
+border-color: #223D8F;
+font-size: 12px;
+border-radius: 10px;
+cursor: pointer;
+    }
+

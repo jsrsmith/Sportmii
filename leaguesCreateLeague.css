@@ -1,0 +1,220 @@
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+   background-color: white;
+/*line-height: 0px;*/
+}
+
+#createLeagueTitle {
+    width: 900px;
+    height: 50px;
+    position:fixed;
+    top: 100;
+    left: 50%;
+    /*margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -450px; /*set to a negative number 1/2 of your width*/
+    background-color: #223D8F;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5px;
+    font-size: 25px;
+    
+    /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#createLeagueExplanation {
+    position: absolute;
+    top: 150;
+    left: 50%;
+     margin-left: -450px; /*set to a negative number 1/2 of your width*/
+    height: 50px;
+    width: 900px;
+    
+    color: #223D8F;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10px;
+}
+
+#createLeagueOutsideBox {
+    width: 900px;
+    height: 400px;
+    position:fixed;
+    top: 230;
+    left: 50%;
+    /*margin-top: -250px; /*set to a negative number 1/2 of your height*/
+    margin-left: -450px; /*set to a negative number 1/2 of your width*/
+    background-color: white;
+    color: #223D8F;
+    text-align: center;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    
+     /* rounding the corners */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+     /* box shadowing */
+-moz-box-shadow: 3px 3px 3px 3px #CFCDCD;
+-webkit-box-shadow: 3px 3px 3px 3px #CFCDCD;
+box-shadow: 3px 3px 3px 3px #CFCDCD;
+}
+
+
+/* all titles */
+
+#createLeagueSportTitle {
+    position: absolute;
+    top: 20;
+    right: 475;
+    line-height: 0px;
+}
+
+#createLeagueYearTitle {
+    position: absolute;
+    top: 65;
+    right: 475;
+    line-height: 0px;
+}
+
+#createLeagueDistrictTitle {
+    position: absolute;
+    top: 110;
+    right: 475;
+    line-height: 0px;
+}
+
+#createLeagueAgeTitle {
+    position: absolute;
+    top: 200;
+    right: 475;
+    line-height: 0px;
+}
+
+#createLeagueDivisionTitle {
+    position: absolute;
+    top: 240;
+    right: 475;
+    line-height: 0px;
+}
+
+
+/*all inputs */
+
+#createLeagueSport {
+    position: absolute;
+    top: 28;
+    left: 435;
+}
+
+#createLeagueYear {
+    position: absolute;
+    top: 73;
+    left: 435;
+}
+
+#createLeagueDistrict {
+    position: absolute;
+    top: 117;
+    left: 435;
+    
+    height:60px;
+    width: 250px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+
+#createLeagueDistrictCount {
+    position: absolute;
+    top: 180;
+    left: 445px;
+    font-size: 12px;
+    color: grey;
+}
+
+#createLeagueAge {
+    position: absolute;
+    top: 207;
+    left: 435;
+}
+
+#createLeagueDivision {
+    position: absolute;
+    top: 247;
+    left: 435;
+    
+    height:60px;
+    width: 250px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+
+#createLeagueDivisionCount {
+    position: absolute;
+    top: 310;
+    left: 445px;
+    font-size: 12px;
+    color: grey;
+}
+
+input {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #223D8F;
+}
+
+#createLeagueSubmit {
+    position: absolute;
+    top: 355;
+    left: 380px;
+}
+
+ input[type="submit"]{
+background-color: white;
+color: #223D8F;
+border-style: solid;
+border-width: 2px;
+border-color: #223D8F;
+font-size: 12px;
+border-radius: 10px;
+    }
+
+    input[type="submit"]:hover{
+cursor: pointer;
+    }
+
+
+/*error message properties */
+#createLeagueNotFilledIn {  
+z-index: 999;
+font-size: 12px;
+position: absolute;
+    top: 555px;
+    left: 495px;
+color: red;
+}
+
+/*error message properties */
+#leagueAlreadyExists {  
+z-index: 999;
+font-size: 12px;
+position: absolute;
+    top: 555px;
+    left: 400px;
+color: red;
+}
+
+

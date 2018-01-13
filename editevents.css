@@ -1,0 +1,89 @@
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+#editeventbuttons {
+    position: absolute;
+    top: 420px;
+    left: 270px;
+}
+
+#editeventcancelbutton {
+    position: absolute;
+    top: 420px;
+    left: 240px;
+}
+
+button.canceledit {
+    font-size: 12px;
+    background-color: /*#515B68*/white;
+    color: #223D8F;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button.canceledit:hover {
+    cursor: pointer;
+}
+
+#submiteditevent{
+    position: absolute;
+    top: 0px;
+    left: 15px;
+}
+
+#canceleditevent{
+    position: absolute;
+    top: 0px;
+    left: 70px;
+}
+
+#noeventstoedit{
+    position: absolute;
+    top: 200px;
+    left: 135px;
+}
+
+#eventstoedit{
+    position: absolute;
+    top: 130px;
+    left: 230px;
+}
+
+#editeventsdropdown {
+    position: absolute;
+    top: 190px;
+    left: 305px;
+}
+
+#editeventbuttons2 {
+    position: absolute;
+    top: 420px;
+    left: 270px;
+}
+
+#submiteditevent2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#canceleditevent2{
+    position: absolute;
+    top: 0px;
+    left: 85px;
+}
+
+/*error message properties */
+#editeventnotfilledin {  
+z-index: 999;
+font-size: 12px;
+position: absolute;
+    top: 385px;
+    left: 230px; 
+visibility: hidden;
+}

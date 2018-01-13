@@ -1,0 +1,135 @@
+body {
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+/*error message properties */
+#noevents {
+font-size: 12px;
+position: absolute;
+    top: 5px;
+    left: 5px; 
+}
+
+/*error message properties */
+#eventfound {
+font-size: 12px;
+position: absolute;
+    top: 5px;
+    left: 5px; 
+width: 235px;
+height: 400px;
+ /*background-color: ghostwhite;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #223D8F;*/
+text-align: center;
+vertical-align: top;
+line-height: 1px;
+overflow: hidden;
+ /* rounding the corners*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#titleboth{
+    line-height: 1px;
+}
+
+#destinationboth{
+    line-height: 1px;
+}
+
+#eventtimeboth{
+    line-height: 1px;
+}
+
+#destinationpcboth{
+    line-height: 1px;
+}
+
+#meetingpointboth{
+    line-height: 1px;
+}
+
+#meetingtimeboth{
+    line-height: 1px;
+}
+
+#meetingpcboth{
+    line-height: 1px;
+}
+
+#titlevar{
+    color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#destinationvar{
+    color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#eventtimevar {
+    color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#destinationpcvar{
+    color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#meetingpointvar{
+    color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#meetingtimevar{
+     color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#meetingpcvar{
+    color: #223D8F;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
