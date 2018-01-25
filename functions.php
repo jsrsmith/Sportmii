@@ -1,8 +1,8 @@
 <?php //sportmiifunctions.php
 $host = 'localhost'; //server im testing on
 $db = 'sportmii'; // main database name
-$user = 'josh'; //database username
-$pass = 'Shijit11'; //database password
+$user = ''; //database username
+$pass = ''; //database password
 $appname = 'sportmii'; //website and app name
 $charset = 'utf8';
 
